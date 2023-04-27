@@ -13,7 +13,7 @@ with open('schema.json', 'r') as file:
 schema = json.loads(schema)
 
 # Connect to MongoDB
-client = MongoClient("mongodb://localhost:27017/")
+client = MongoClient("mongodb://mongodb:27017/")
 db = client["nanoparticles_database"]
 collection_name = "nanoparticles"
 

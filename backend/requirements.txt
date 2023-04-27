@@ -1,5 +1,4 @@
 Flask
-python-dotenv
 pymongo
-bson
 loguru
+gunicorn
