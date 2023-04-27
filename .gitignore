@@ -3,3 +3,4 @@ diploma
 db/data/*
 *cpython*
 *__pycache__
+db_dump.json

@@ -1,0 +1,204 @@
+API Documentation:
+
+API Overview:
+This API provides a way to manage nanoparticles. It allows you to add, update, get, and delete nanoparticles. The API uses JSON format for input and output.
+
+Base URL:
+The base URL for this API is http://domain.com.
+
+Endpoints:
+
+Health Check: GET /health
+Add a nanoparticle: POST /api/np/add
+Update a nanoparticle: PUT /api/np/update/{id}
+Get all nanoparticles: GET /api/np/get
+Get a nanoparticle by ID: GET /api/np/get/{id}
+Delete a nanoparticle by ID: DELETE /np/delete/{id}
+
+Health Check Endpoint:
+The Health Check endpoint is used to check if the API is up and running. It returns a JSON response with a message "ok" if the API is running successfully.
+Example Request:
+GET http://yourdomain.com/health
+
+Example Response:
+HTTP Status Code: 200 OK
+{
+"message": "ok"
+}
+
+Add a Nanoparticle Endpoint:
+The Add a Nanoparticle endpoint is used to add one or more nanoparticles to the database. You can either provide a single nanoparticle as a dictionary or a list of nanoparticles.
+
+Example Request:
+POST http://domain.com/api/np/add
+Content-Type: application/json
+{
+  "type":"HSPC:Chol",
+  "mean_hydrodynamic_diameter":127.77,
+  "zeta_potential":-20.30,
+  "pdi":0.050,
+  "article":{
+    "article_doi":"10.1021/acsnano.5b03300",
+    "title":"In Vivo Biomolecule Corona around Blood-Circulating, Clinically Used and Antibody-Targeted Lipid Bilayer Nanoscale Vesicles"
+  },
+  "protein_identification_method":"LC-MS-MS",
+  "coronas":[
+    {
+      "mean_hydrodynamic_diameter":119.20,
+      "zeta_potential":-36.54,
+      "pdi":0.170,
+      "exposure_time":10,
+      "experiment_type":"in vitro",
+      "proteins":[
+        {
+          "name": "Apolipoprotein E",
+          "rpa": 5.55
+        },
+        {
+          "name": "Alpha-2-macroglobulin",
+          "rpa": 5.33
+        },
+        {
+          "name": "Fibrinogen beta chain",
+          "rpa": 5.03
+        }
+      ]
+    },
+    {
+      "mean_hydrodynamic_diameter":104.76,
+      "zeta_potential":-27.87,
+      "pdi":0.170,
+      "exposure_time":10,
+      "experiment_type":"in vivo",
+      "proteins":[
+        {
+          "name": "Apolipoprotein C-III",
+          "rpa": 4.93
+        },
+        {
+          "name": "Apolipoprotein E",
+          "rpa": 3.54
+        },
+        {
+          "name": "Hemoglobin subunit beta-1",
+          "rpa": 3.34
+        }
+      ]
+    }
+  ]
+}
+Example Response:
+HTTP Status Code: 201 Created
+{
+"message": "Nanoparticle added successfully"
+}
+Update a Nanoparticle Endpoint:
+The Update a Nanoparticle endpoint is used to update a nanoparticle in the database. You need to provide the ID of the nanoparticle you want to update and the new data.
+
+Example Request:
+PUT http://yourdomain.com/api/np/update/61312fa7fba501c0cf4968f8
+Content-Type: application/json
+{
+  "type":"HSPC:Chol",
+  "mean_hydrodynamic_diameter":127.77,
+  "zeta_potential":-20.30,
+  "pdi":0.050,
+  "article":{
+    "article_doi":"10.1021/acsnano.5b03300",
+    "title":"New title"
+  },
+  "protein_identification_method":"LC-MS-MS",
+  "coronas":[
+    {
+      "mean_hydrodynamic_diameter":119.20,
+      "zeta_potential":-36.54,
+      "pdi":0.170,
+      "exposure_time":10,
+      "experiment_type":"in vitro",
+      "proteins":[
+        {
+          "name": "Apolipoprotein E",
+          "rpa": 5.55
+        },
+        {
+          "name": "Alpha-2-macroglobulin",
+          "rpa": 5.33
+        }
+      ]
+    },
+    {
+      "mean_hydrodynamic_diameter":104.76,
+      "zeta_potential":-27.87,
+      "pdi":0.170,
+      "exposure_time":10,
+      "experiment_type":"in vivo",
+      "proteins":[
+        {
+          "name": "Apolipoprotein C-III",
+          "rpa": 4.93
+        },
+        {
+          "name": "Apolipoprotein E",
+          "rpa": 3.54
+        }
+      ]
+    }
+  ]
+}
+
+Get all Nanoparticles Endpoint:
+The Get all Nanoparticles endpoint is used to retrieve all the nanoparticles in the database.
+
+Example Request:
+GET http://domain.com/api/np/get
+
+Example Response:
+HTTP Status Code: 200 OK
+[
+{
+"_id": "61312fa7fba501c0cf4968f8",
+...
+},
+{
+"_id": "6131305bfba501c0cf4968f9",
+...
+}
+]
+
+Get a Nanoparticle by ID Endpoint:
+The Get a Nanoparticle by ID endpoint is used to retrieve a nanoparticle by its ID.
+
+Example Request:
+GET http://domain.com/api/np/get/61312fa7fba501c0cf4968f8
+
+Example Response:
+HTTP Status Code: 200 OK
+{
+"_id": "61312fa7fba501c0cf4968f8",
+...
+}
+
+Possible Error Responses:
+
+400 Bad Request: Returned if the input data is invalid.
+404 Not Found: Returned if the requested nanoparticle or endpoint is not found.
+409 Conflict: Returned if the nanoparticle is a duplicate and cannot be added or updated.
+500 Internal Server Error: Returned if the API encounters an unexpected error.
+
+Authentication:
+This API does not require authentication.
+
+Versioning:
+This API does not currently support versioning. Any changes to the API will be documented in this documentation.
+
+
+
+Delete a Nanoparticle by ID Endpoint:
+The Delete a Nanoparticle by ID endpoint is used to delete a nanoparticle by its ID.
+DELETE http://domain.com/np/delete/61312fa7fba501c0cf4968f8
+
+Example Response:
+HTTP Status Code: 200 OK
+{
+"message": "Nanoparticle with ID 61312fa7fba501c0cf4968f8 deleted successfully"
+}
