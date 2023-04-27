@@ -1,0 +1,90 @@
+{
+    "$jsonSchema": {
+      "bsonType": "object",
+      "required": ["type", "article", "protein_identification_method", "coronas"],
+      "properties": {
+        "type": {
+          "bsonType": "string",
+          "description": "The chemical type of the nanoparticle"
+        },
+        "mean_hydrodynamic_diameter": {
+          "bsonType": "number",
+          "description": "The mean hydrodynamic diameter of the nanoparticle"
+        },
+        "zeta_potential": {
+          "bsonType": "number",
+          "description": "The zeta potential of the nanoparticle"
+        },
+        "pdi": {
+          "bsonType": "number",
+          "description": "The polydispersity index of the nanoparticle"
+        },
+        "article": {
+          "bsonType": "object",
+          "required": ["article_doi", "title"],
+          "properties": {
+            "article_doi": {
+              "bsonType": "string",
+              "description": "The DOI of the article"
+            },
+            "title": {
+              "bsonType": "string",
+              "description": "The title of the article"
+            }
+          }
+        },
+        "protein_identification_method": {
+          "bsonType": "string",
+          "description": "The protein identification method used"
+        },
+        "coronas": {
+          "bsonType": "array",
+          "description": "The protein corona information for the nanoparticle",
+          "items": {
+            "bsonType": "object",
+            "required": ["exposure_time", "experiment_type", "proteins"],
+            "properties": {
+              "mean_hydrodynamic_diameter": {
+                "bsonType": "number",
+                "description": "The mean hydrodynamic diameter of the nanoparticle"
+              },
+              "zeta_potential": {
+                "bsonType": "number",
+                "description": "The zeta potential of the nanoparticle"
+              },
+              "pdi": {
+                "bsonType": "number",
+                "description": "The polydispersity index of the nanoparticle"
+              },
+              "exposure_time": {
+                "bsonType": "number",
+                "description": "The exposure time of the experiment in minutes"
+              },
+              "experiment_type": {
+                "bsonType": "string",
+                "description": "The type of experiment conducted: in vivo/in vitro"
+              },
+              "proteins": {
+                "bsonType": "array",
+                "description": "The list of proteins found in the protein corona",
+                "items": {
+                  "bsonType": "object",
+                  "required": ["name", "rpa"],
+                  "properties": {
+                    "name": {
+                      "bsonType": "string",
+                      "description": "Protein or part of protein"
+                    },
+                    "rpa": {
+                      "bsonType": "number",
+                      "description": "The relative protein abundance of the protein in the corona"
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
