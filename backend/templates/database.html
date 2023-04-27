@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    {% include "common_head_scripts.html" %}
+    <title>Database</title>
+    <style>
+        #table-container {
+            width: 95%;
+            margin: 0 auto;
+        }
+    </style>
+</head>
+
+<body>
+    {% include "common_buttons.html" %}
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-12">
+                <h1 class="text-center my-1">Database</h1>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-12">
+                <div id="table-container">
+                    <table id="full-table" class="nowrap table table-striped" style="width:100%">
+                        <thead>
+                            <tr>
+                                <th>Nanoparticle Type</th>
+                                <th>Pure NP Diameter (nm)</th>
+                                <th>Corona NP Diameter (nm)</th>
+                                <th>Zeta Potential (mV)</th>
+                                <th>Corona Zeta Potential (mV)</th>
+                                <th>NP PDI </th>
+                                <th>Corona NP PDI </th>
+                                <th>Protein Identification Method</th>
+                                <th>Exposure Time</th>
+                                <th>Experiment Type</th>
+                                <th>Protein Name</th>
+                                <th>RPA</th>
+                                <th>Article DOI</th>
+                                <th>Article Title</th>
+                                <th>Nanoparticle ID</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            {% for row in table %}
+                            <tr>
+                                <td>{{ row.nanoparticle_type }}</td>
+                                <td>{{ row.mean_hydrodynamic_diameter }}</td>
+                                <td>{{ row.corona_mean_hydrodynamic_diameter }}</td>
+                                <td>{{ row.zeta_potential }}</td>
+                                <td>{{ row.corona_zeta_potential }}</td>
+                                <td>{{ row.pdi }}</td>
+                                <td>{{ row.corona_pdi }}</td>
+                                <td>{{ row.protein_identification_method }}</td>
+                                <td>{{ row.exposure_time }}</td>
+                                <td>{{ row.experiment_type }}</td>
+                                <td>{{ row.protein_name }}</td>
+                                <td>{{ row.rpa }}</td>
+                                <td>{{ row.article_doi }}</td>
+                                <td>{{ row.article_title }}</td>
+                                <td><a href="{{ url_for('get_nanoparticle_page', id=row.np_id) }}">{{ row.np_id }}</a></td>
+                            </tr>
+                            {% endfor %}
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+    </div>
+    {% include "common_body_scripts.html" %}
+    <script>
+        $(document).ready(function () {
+            var table = $('#full-table').DataTable({
+                "scrollY": "70vh",
+                "scrollX": true,
+                "scrollCollapse": true,
+                "paging": false,
+                "searching": true,
+                "info": true,
+                "dom": 'Bfrtip',
+                "buttons": [
+                    'copy',
+                    {
+                      "extend": 'csvHtml5',
+                      "text": 'CSV',
+                      "titleAttr": 'Download as CSV',
+                      "exportOptions": {
+                        "columns": ':visible'
+                      },
+                      "title": 'NP_database'
+                    }
+                ],
+            });
+        });
+    </script>
+</body>
+
+</html>

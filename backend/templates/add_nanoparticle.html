@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    {% include "common_head_scripts.html" %}
+    <title>Add Nanoparticle</title>
+</head>
+
+<body>
+    {% include "common_buttons.html" %}
+    <div class="container">
+        <h1 class="text-center my-1">Add Nanoparticle</h1>
+        <form id="add-nanoparticle-form" method="post">
+            <div class="form-group">
+                <label for="type">Nanoparticle Type</label>
+                <input type="text" class="form-control" id="type" name="type" required>
+            </div>
+            <div class="form-group">
+                <label for="mean_hydrodynamic_diameter">NP Diameter (nm)</label>
+                <input type="number" step="0.001" class="form-control" id="mean_hydrodynamic_diameter" name="mean_hydrodynamic_diameter" required>
+            </div>
+            <div class="form-group">
+                <label for="zeta_potential">Zeta Potential (mV)</label>
+                <input type="number" step="0.001" class="form-control" id="zeta_potential" name="zeta_potential" required>
+            </div>
+            <div class="form-group">
+                <label for="pdi">PDI</label>
+                <input type="number" step="0.001" class="form-control" id="pdi" name="pdi" required>
+            </div>
+            <div class="form-group">
+                <label for="article_doi">Article DOI</label>
+                <input type="text" class="form-control" id="article_doi" name="article_doi" required>
+            </div>
+            <div class="form-group">
+                <label for="article_title">Article Title</label>
+                <input type="text" class="form-control" id="article_title" name="article_title" required>
+            </div>
+            <div class="form-group">
+                <label for="protein_identification_method">Protein Identification Method</label>
+                <input type="text" class="form-control" id="protein_identification_method" name="protein_identification_method" required>
+            </div>
+            <div class="form-group">
+                <label>Coronas</label>
+                <button type="button" id="add-corona" class="btn btn-primary btn-sm">Add Corona</button>
+                <div id="coronas"></div>
+            </div>
+            <button type="submit" class="btn btn-primary">Add Nanoparticle</button>
+        </form>
+    </div>
+    {% include "common_body_scripts.html" %}
+    <script>
+        $(document).ready(function () {
+            var coronasContainer = $("#coronas");
+            var coronaIndex = 0;
+
+            $("#add-corona").click(function () {
+                var corona = $("<div>").addClass("corona").attr("data-index", coronaIndex);
+                corona.append("<h4>Corona " + (coronaIndex + 1) + "</h4>");
+
+                // Add corona fields
+                var coronaFields = $("<div>").addClass("form-row");
+                coronaFields.append(createInputField("Mean Hydrodynamic Diameter", "coronas[" + coronaIndex + "][mean_hydrodynamic_diameter]"));
+                coronaFields.append(createInputField("Zeta Potential", "coronas[" + coronaIndex + "][zeta_potential]"));
+                coronaFields.append(createInputField("PDI", "coronas[" + coronaIndex + "][pdi]"));
+                coronaFields.append(createInputField("Exposure Time", "coronas[" + coronaIndex + "][exposure_time]"));
+                coronaFields.append(createInputField("Experiment Type", "coronas[" + coronaIndex + "][experiment_type]"));
+
+                var deleteButton = $("<button>").addClass("btn btn-danger btn-sm").text("Delete Corona");
+                deleteButton.click(function (e) {
+                    e.preventDefault();
+                    corona.remove();
+                });
+
+                corona.append(coronaFields, deleteButton);
+
+                // Add a container for proteins and a button to add more proteins
+                var proteinsContainer = $("<div>").addClass("proteins");
+                var addProteinBtn = $("<button>").addClass("btn btn-secondary btn-sm").text("Add Protein");
+                corona.append(proteinsContainer, addProteinBtn);
+
+                var proteinIndex = 0;
+
+                addProteinBtn.click(function (e) {
+                    e.preventDefault();
+
+                    // Add protein fields here, e.g., name, rpa
+                    var protein = $("<div>").addClass("protein").attr("data-index", proteinIndex);
+                    protein.append("<h5>Protein " + (proteinIndex + 1) + "</h5>");
+
+                    var proteinNameGroup = $("<div>").addClass("form-group");
+                    proteinNameGroup.append("<label for='protein_name_" + proteinIndex + "'>Protein Name</label>");
+                    proteinNameGroup.append("<input type='text' class='form-control' id='protein_name_" + proteinIndex + "' name='protein_name_" + proteinIndex + "' required>");
+                    protein.append(proteinNameGroup);
+
+                    var proteinRpaGroup = $("<div>").addClass("form-group");
+                    proteinRpaGroup.append("<label for='protein_rpa_" + proteinIndex + "'>RPA</label>");
+                    proteinRpaGroup.append("<input type='number' step='0.01' class='form-control' id='protein_rpa_" + proteinIndex + "' name='protein_rpa_" + proteinIndex + "' required>");
+                    protein.append(proteinRpaGroup);
+
+                    var deleteProteinBtn = $("<button>").addClass("btn btn-danger btn-sm").text("Delete Protein");
+                    protein.append(deleteProteinBtn);
+
+                    deleteProteinBtn.click(function (e) {
+                        e.preventDefault();
+                        protein.remove();
+                    });
+
+                    proteinsContainer.append(protein);
+                    proteinIndex++;
+                });
+
+
+                coronasContainer.append(corona);
+                coronaIndex++;
+            });
+
+            function createInputField(labelText, fieldName) {
+                var formGroup = $("<div>").addClass("form-group col-md-4");
+                var label = $("<label>").text(labelText);
+                var input = $("<input>").addClass("form-control").attr("name", fieldName);
+                formGroup.append(label, input);
+                return formGroup;
+            }
+
+            function serializeForm() {
+                var nanoparticle = {
+                    type: $("#type").val(),
+                    mean_hydrodynamic_diameter: parseFloat($("#mean_hydrodynamic_diameter").val()),
+                    zeta_potential: parseFloat($("#zeta_potential").val()),
+                    pdi: parseFloat($("#pdi").val()),
+                    article: {
+                        article_doi: $("#article_doi").val(),
+                        title: $("#article_title").val()
+                    },
+                    protein_identification_method: $("#protein_identification_method").val(),
+                    coronas: []
+                };
+
+                $(".corona").each(function () {
+                    var c = $(this);
+                    const coronaValues = {
+                        mean_hydrodynamic_diameter: parseFloat(c.find("input[name$='[mean_hydrodynamic_diameter]']").val()) || null,
+                        zeta_potential: parseFloat(c.find("input[name$='[zeta_potential]']").val()) || null,
+                        pdi: parseFloat(c.find("input[name$='[pdi]']").val()) || null,
+                        exposure_time: parseInt(c.find("input[name$='[exposure_time]']").val()) || null,
+                        experiment_type: c.find("input[name$='[experiment_type]']").val() || null,
+                        proteins: []
+                    };
+
+                    c.find(".protein").each(function () {
+                        var p = $(this);
+                        var protein = {
+                            name: p.find("input[id^='protein_name_']").val(),
+                            rpa: parseFloat(p.find("input[id^='protein_rpa_']").val())
+                        };
+                        coronaValues.proteins.push(protein);
+                    });
+
+                    nanoparticle.coronas.push(coronaValues);
+                });
+
+                return nanoparticle;
+            }
+            $("#add-nanoparticle-form").on("submit", function (event) {
+                event.preventDefault();
+                var nanoparticleData = serializeForm();
+                console.log(nanoparticleData); // This line is for debugging, it logs the serialized data to the console
+
+                // Send POST request
+                $.ajax({
+                    type: "POST",
+                    url: "/api/np/add",
+                    data: JSON.stringify(nanoparticleData),
+                    contentType: "application/json",
+                    success: function (response) {
+                        // Handle the response, e.g., display a message, redirect to another page, etc.
+                        console.log(response);
+                        alert("Nanoparticle added successfully!");
+                    },
+                    error: function (error) {
+                        // Handle errors
+                        console.log(error);
+                        alert("Error adding nanoparticle.");
+                    }
+                });
+            });
+        });
+    </script>
+</body>
+
+</html>

@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+    <title>Nanoparticle</title>
+</head>
+<body>
+    {% include "common_buttons.html" %}
+    <div class="container">
+        <h1 class="text-center my-1">Nanoparticle Details</h1>
+        <a href="{{ url_for('get_np_corona_page') }}" class="btn btn-primary mb-3">Back to Coronas</a>
+        <div class="row">
+            <div class="col-12">
+                <div class="card">
+                    <div class="card-header">
+                        <h4>Nanoparticle Information</h4>
+                    </div>
+                    <ul class="list-group list-group-flush">
+                        <li class="list-group-item"><b>ID:</b> {{ nanoparticle._id }}</li>
+                        <li class="list-group-item"><b>Type:</b> {{ nanoparticle.type }}</li>
+                        <li class="list-group-item"><b>Mean Hydrodynamic Diameter:</b> {{ nanoparticle.mean_hydrodynamic_diameter }}</li>
+                        <li class="list-group-item"><b>Zeta Potential:</b> {{ nanoparticle.zeta_potential }}</li>
+                        <li class="list-group-item"><b>PDI:</b> {{ nanoparticle.pdi }}</li>
+                        <li class="list-group-item"><b>Article DOI:</b> {{ nanoparticle.article.article_doi }}</li>
+                        <li class="list-group-item"><b>Article title:</b> {{ nanoparticle.article.title }}</li>
+                        <li class="list-group-item"><b>Protein Identification Method:</b> {{ nanoparticle.protein_identification_method }}</li>
+                      </ul>
+                </div>
+            </div>
+        </div>
+
+        <div class="row mt-4">
+            <div class="col-12">
+                <h4>Coronas</h4>
+                {% for corona in nanoparticle.coronas %}
+                <div class="card my-2">
+                    <div class="card-header">
+                        <h5>Corona {{ loop.index }}</h5>
+                    </div>
+                    <ul class="list-group list-group-flush">
+                        <li class="list-group-item"><b>Mean Hydrodynamic Diameter:</b> {{ corona.mean_hydrodynamic_diameter }}</li>
+                        <li class="list-group-item"><b>Zeta Potential:</b> {{ corona.zeta_potential }}</li>
+                        <li class="list-group-item"><b>PDI:</b> {{ corona.pdi }}</li>
+                        <li class="list-group-item"><b>Exposure Time:</b> {{ corona.exposure_time }}</li>
+                        <li class="list-group-item"><b>Experiment Type:</b> {{ corona.experiment_type }}</li>
+                    </ul>
+                    <div class="card-body">
+                        <h5 class="card-title"><b>Proteins</b></h5>
+                        <table class="table table-striped">
+                            <thead>
+                                <tr>
+                                    <th>Name</th>
+                                    <th>RPA</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                {% for protein in corona.proteins %}
+                                <tr>
+                                    <td>{{ protein.name }}</td>
+                                    <td>{{ protein.rpa }}</td>
+                                </tr>
+                                {% endfor %}
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+                {% endfor %}
+            </div>
+        </div>
+    </div>
+</body>
+</html>
