@@ -1,6 +1,5 @@
 Flask
-Flask-SQLAlchemy
 python-dotenv
-sqlalchemy
-sqlalchemy_utils
-marshmallow-sqlalchemy
+pymongo
+bson
+loguru
