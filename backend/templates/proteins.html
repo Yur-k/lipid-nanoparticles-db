@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+    <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+    <script src="https://cdn.datatables.net/1.13.4/js/jquery.dataTables.min.js"></script>
+    <script src="https://cdn.datatables.net/1.13.4/js/dataTables.bootstrap4.min.js"></script>
+    <script src="https://cdn.datatables.net/1.13.4/css/jquery.dataTables.min.css"></script>
+    <script src="https://code.jquery.com/jquery-3.5.1.js"></script>
+    <script src="https://cdn.datatables.net/1.13.4/js/jquery.dataTables.min.js"></script>
+    <script src="https://cdn.datatables.net/1.13.4/js/dataTables.jqueryui.min.js"></script>
+    <link rel="stylesheet" href="https://cdn.datatables.net/1.10.21/css/dataTables.bootstrap4.min.css">
+    <style>
+      #table-container {
+        height: 100%;
+        width: 100%;
+        overflow-y: scroll;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="row">
+      <div class="col-5">
+        <div class="btn-group d-flex justify-content-center">
+          <a href="/" class="btn btn-primary mx-3">Main</a>
+          <a href="/protein" class="btn btn-primary mx-3">Proteins</a>
+          <a href="/np/get" class="btn btn-primary mx-3">All Data</a>
+        </div>
+      </div>
+    </div>
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-12">
+          <h1 class="text-center">Proteins Data</h1>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-12">
+          <div id="table-container">
+            <table id="proteins-table" class="table table-striped" style="width:100%">
+              <thead>
+                <tr>
+                  <th>Nanoparticle Type</th>
+                  <th>Protein Name</th>
+                  <th>RPA</th>
+                  <th>Experiment Type</th>
+                  <th>Exposure Time</th>
+                  <th>Nanoparticle ID</th>
+                </tr>
+              </thead>
+              <tbody>
+                {% for protein in proteins %}
+                  <tr>
+                    <td>{{ protein.nanoparticle_type }}</td>
+                    <td>{{ protein.protein_name }}</td>
+                    <td>{{ protein.rpa }}</td>
+                    <td>{{ protein.experiment_type }}</td>
+                    <td>{{ protein.exposure_time }}</td>
+                    <td>{{ protein.np_id }}</td>
+                  </tr>
+                {% endfor %}
+              </tbody>
+            </table>
+          </div>
+        </div>
+    </div>
+</div>
+<script>
+  $(document).ready(function() {
+    var table = $('#proteins-table').DataTable({
+      "scrollY": "70vh",
+      "scrollX": false,
+      "scrollCollapse": true,
+      "paging": false,
+      "searching": true,
+      "info": true,
+      "columnDefs": [
+        { "width": "18%", "targets": 0 },
+        { "width": "18%", "targets": 1 },
+        { "width": "16%", "targets": 2 },
+        { "width": "14%", "targets": 3 },
+        { "width": "14%", "targets": 4 },
+        { "width": "20%", "targets": 5 }
+      ],
+      // "autoWidth": false
+    });
+  });
+</script>
+</body>
+</html>
