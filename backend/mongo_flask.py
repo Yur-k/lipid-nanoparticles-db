@@ -2,7 +2,8 @@ from flask import Flask, request, jsonify, render_template
 from pymongo import MongoClient
 from bson import ObjectId
 import json
-import loguru 
+import loguru
+
 app = Flask(__name__)
 
 logger = loguru.logger
@@ -16,6 +17,7 @@ client = MongoClient("mongodb://localhost:27017/")
 db = client["nanoparticles_database"]
 collection_name = "nanoparticles"
 
+
 if collection_name not in db.list_collection_names():
     db.command("create", collection_name, validator=schema)
 else:
@@ -23,13 +25,16 @@ else:
 
 collection = db[collection_name]
 
+
 def is_duplicate(data):
         existing_item = collection.find_one(data)
         return existing_item is not None
 
+
 @app.route("/health", methods=["GET"])
 def healthcheck():
     return jsonify({"message":"ok"})
+
 
 @app.route("/api/np/add", methods=["POST"])
 def add_nanoparticles():
@@ -43,7 +48,6 @@ def add_nanoparticles():
                 if is_duplicate(np):
                     results.append({"np #": data.index(np)+1, "message": "Duplicate nanoparticle, not added"})
                     continue
-
                 collection.insert_one(np)
                 results.append({"np #": data.index(np)+1, "message": "Nanoparticle added successfully"})
         elif isinstance(data, dict):
@@ -52,13 +56,10 @@ def add_nanoparticles():
             else:
                 collection.insert_one(data)
                 return jsonify({"message": "Nanoparticle added successfully"}), 201
-        else:
-            # Invalid input
-            return jsonify({"error": "Invalid input"}), 400
-
         return jsonify({"results": results}), 201
     except Exception as e:
         return jsonify({"error": str(e)}), 500
+
 
 # Update a nanoparticle
 @app.route("/api/np/update/<id>", methods=["PUT"])
@@ -71,6 +72,7 @@ def update_nanoparticle(id):
     collection.update_one({"_id": ObjectId(id)}, {"$set": data})
     return jsonify({"message": "Nanoparticle updated successfully"}), 200
 
+
 # Get all nanoparticles
 @app.route("/api/np/get", methods=["GET"])
 def get_nanoparticles():
@@ -80,6 +82,7 @@ def get_nanoparticles():
     for nanoparticle in nanoparticles:
         nanoparticle["_id"] = str(nanoparticle["_id"])
     return jsonify(nanoparticles)
+
 
 # Get a nanoparticle by ID
 @app.route("/api/np/get/<id>", methods=["GET"])
@@ -91,6 +94,7 @@ def get_nanoparticle(id):
     else:
         return jsonify({"message": "Nanoparticle not found"}), 404
 
+
 # Delete a nanoparticle by ID
 @app.route('/np/delete/<id>', methods=['DELETE'])
 def delete_nanoparticle(id):
@@ -99,6 +103,7 @@ def delete_nanoparticle(id):
         return jsonify({"message": f"Nanoparticle with ID {id} deleted successfully"}), 200
     else:
         return jsonify({"message": f"Nanoparticle with ID {id} not found"}), 404
+
 
 ###########################
 ##  WEB PAGES
@@ -114,7 +119,7 @@ def index():
         return f"Form submitted successfully {name} {email} {message}!"
     return render_template("index.html")
 
-# get all data as table
+
 @app.route('/database', methods=['GET'])
 def get_database_page():
     nanoparticles = list(collection.find())
@@ -141,7 +146,8 @@ def get_database_page():
                 })
     return render_template("database.html", table=all_data)
 
-# Get data for the 'corona' table
+
+
 @app.route('/coronas', methods=['GET'])
 def get_np_corona_page():
     nanoparticles = list(collection.find())
@@ -161,6 +167,7 @@ def get_np_corona_page():
             })
     return render_template("coronas.html", table=nanoparticles_corona_data)
 
+
 @app.route("/proteins", methods=["GET"])
 def get_proteins_page():
     nanoparticles = list(collection.find())
@@ -179,6 +186,7 @@ def get_proteins_page():
                 })
     return render_template("proteins.html", proteins=proteins_data)
 
+
 @app.route('/nanoparticles', methods=['GET'])
 def get_nanoparticles_page():
     nanoparticles = list(collection.find())
@@ -196,6 +204,7 @@ def get_nanoparticles_page():
         })
     return render_template("nanoparticles.html", table=nanoparticles_info)
 
+
 @app.route('/nanoparticle/<id>', methods=['GET'])
 def get_nanoparticle_page(id):
     nanoparticle = collection.find_one({"_id": ObjectId(id)})
@@ -204,13 +213,16 @@ def get_nanoparticle_page(id):
     else:
         return "Nanoparticle not found", 404
 
+
 @app.route("/add_nanoparticle", methods=["GET"])
 def get_np_adding_page():
     return render_template("add_nanoparticle.html")
 
+
 @app.route("/api_documentation", methods=["GET"])
 def get_api_doc_page():
-    return render_template("api_documentation.html", domain="http://domain.com")
+    return render_template("api_documentation.html", domain="http://localhost")
     
+
 if __name__ == "__main__":
     app.run(debug=True, host="0.0.0.0")
