@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    {% include "common_head_scripts.html" %}
+    <title>Nanoparticle Protein Corona JSON Schema Documentation</title>
+    <style>
+        .json-example {
+            background-color: #f4f4f4;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            padding: 15px;
+            margin-bottom: 20px;
+        }
+        .properties-list li {
+            line-height: 1.9;
+        }
+    </style>
+</head>
+
+<body>
+    {% include "common_buttons.html" %}
+    <div class="container">
+        <h1 class="text-center my-4">Nanoparticle Protein Corona JSON Schema Documentation</h1>
+        <h4>This JSON schema defines the structure for a nanoparticle protein corona dataset.</h4>
+        <h3>Properties</h3>
+        <ul class="properties-list">
+            <li><b>type</b> (string, required): The chemical composition of the nanoparticle.</li>
+            <li><b>mean_hydrodynamic_diameter</b> (number or null, optional): The mean hydrodynamic diameter of the
+                nanoparticle.</li>
+            <li><b>zeta_potential</b> (number or null, optional): The zeta potential of the nanoparticle.</li>
+            <li><b>pdi</b> (number or null, optional): The polydispersity index of the nanoparticle.</li>
+            <li><b>article</b> (object, required): The article information associated with the nanoparticle dataset.
+                <ul>
+                    <li><b>article_doi</b> (string, required): The DOI of the article.</li>
+                    <li><b>title</b> (string, required): The title of the article.</li>
+                    <li><b>protein_identification_method</b> (string, required): The protein identification method used.
+                    </li>
+                </ul>
+            </li>
+            <li><b>coronas</b> (array, required): The protein corona information for the nanoparticle.
+                <ul>
+                    <li><b>mean_hydrodynamic_diameter</b> (number or null, optional): The mean hydrodynamic diameter of
+                        the
+                        nanoparticle.</li>
+                    <li><b>zeta_potential</b> (number or null, optional): The zeta potential of the nanoparticle.</li>
+                    <li><b>pdi</b> (number or null, optional): The polydispersity index of the nanoparticle.</li>
+                    <li><b>exposure_time</b> (number or null, optional): The exposure time of the experiment in minutes.
+                    </li>
+                    <li><b>experiment_type</b> (string, required): The type of experiment conducted: in vivo/in vitro.
+                    </li>
+                    <li><b>proteins</b> (array, required): The list of proteins found in the protein corona.
+                        <ul>
+                            <li><b>name</b> (string, required): Protein or part of protein.</li>
+                            <li><b>rpa</b> (number or null, optional): The relative protein abundance of the protein in
+                                the
+                                corona.</li>
+                        </ul>
+                    </li>
+                </ul>
+            </li>
+        </ul>
+        <h2>JSON Example</h2>
+        <div class="json-example">
+            <pre><code>
+{
+    "mean_hydrodynamic_diameter": 103.2,
+    "pdi": null,
+    "type": "DOTAP:DC-Chol:DOPC:DOPE:PEG5000",
+    "zeta_potential": 11.3
+    "protein_identification_method": "LC-MS-MS",
+    "article": {
+        "article_doi": "10.1039/c3nr05559k",
+        "title": "Example of title"
+    },
+    "coronas": [
+        {
+        "experiment_type": "in vitro",
+        "exposure_time": 60,
+        "mean_hydrodynamic_diameter": 111,
+        "pdi": null,
+        "proteins": [
+            {
+            "name": "Ig kappa chain C region",
+            "rpa": 7.868
+            },
+            {
+            "name": "Complement C3",
+            "rpa": 4.639
+            }
+        ],
+        "zeta_potential": -7
+        }
+    ],
+}
+</code></pre>
+        </div>
+    </div>
+    {% include "common_body_scripts.html" %}
+</body>
+
+</html>

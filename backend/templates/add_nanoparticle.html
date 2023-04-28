@@ -11,22 +11,23 @@
     {% include "common_buttons.html" %}
     <div class="container">
         <h1 class="text-center my-1">Add Nanoparticle</h1>
+        <a href="/schema" class="btn btn-primary mb-3" target="_blank" >Schema documentation</a>
         <form id="add-nanoparticle-form" method="post">
             <div class="form-group">
-                <label for="type">Nanoparticle Type</label>
+                <label for="type">Nanoparticle Composition</label>
                 <input type="text" class="form-control" id="type" name="type" required>
             </div>
             <div class="form-group">
-                <label for="mean_hydrodynamic_diameter">NP Diameter (nm)</label>
-                <input type="number" step="0.001" class="form-control" id="mean_hydrodynamic_diameter" name="mean_hydrodynamic_diameter" required>
+                <label for="mean_hydrodynamic_diameter">Nanoparticle Diameter (nm)</label>
+                <input type="number" step="0.001" class="form-control" id="mean_hydrodynamic_diameter" name="mean_hydrodynamic_diameter" >
             </div>
             <div class="form-group">
                 <label for="zeta_potential">Zeta Potential (mV)</label>
-                <input type="number" step="0.001" class="form-control" id="zeta_potential" name="zeta_potential" required>
+                <input type="number" step="0.001" class="form-control" id="zeta_potential" name="zeta_potential">
             </div>
             <div class="form-group">
                 <label for="pdi">PDI</label>
-                <input type="number" step="0.001" class="form-control" id="pdi" name="pdi" required>
+                <input type="number" step="0.001" class="form-control" id="pdi" name="pdi">
             </div>
             <div class="form-group">
                 <label for="article_doi">Article DOI</label>
@@ -60,10 +61,10 @@
 
                 // Add corona fields
                 var coronaFields = $("<div>").addClass("form-row");
-                coronaFields.append(createInputField("Mean Hydrodynamic Diameter", "coronas[" + coronaIndex + "][mean_hydrodynamic_diameter]"));
-                coronaFields.append(createInputField("Zeta Potential", "coronas[" + coronaIndex + "][zeta_potential]"));
+                coronaFields.append(createInputField("Nanoparticle Diameter (nm)", "coronas[" + coronaIndex + "][mean_hydrodynamic_diameter]"));
+                coronaFields.append(createInputField("Zeta Potential (mV)", "coronas[" + coronaIndex + "][zeta_potential]"));
                 coronaFields.append(createInputField("PDI", "coronas[" + coronaIndex + "][pdi]"));
-                coronaFields.append(createInputField("Exposure Time", "coronas[" + coronaIndex + "][exposure_time]"));
+                coronaFields.append(createInputField("Exposure Time (min)", "coronas[" + coronaIndex + "][exposure_time]"));
                 coronaFields.append(createInputField("Experiment Type", "coronas[" + coronaIndex + "][experiment_type]"));
 
                 var deleteButton = $("<button>").addClass("btn btn-danger btn-sm").text("Delete Corona");
@@ -165,7 +166,7 @@
             $("#add-nanoparticle-form").on("submit", function (event) {
                 event.preventDefault();
                 var nanoparticleData = serializeForm();
-                console.log(nanoparticleData); // This line is for debugging, it logs the serialized data to the console
+                console.log(nanoparticleData);
 
                 // Send POST request
                 $.ajax({
@@ -174,14 +175,12 @@
                     data: JSON.stringify(nanoparticleData),
                     contentType: "application/json",
                     success: function (response) {
-                        // Handle the response, e.g., display a message, redirect to another page, etc.
                         console.log(response);
                         alert("Nanoparticle added successfully!");
                     },
                     error: function (error) {
-                        // Handle errors
                         console.log(error);
-                        alert("Error adding nanoparticle.");
+                        alert("Error adding nanoparticle "+ error.responseText);
                     }
                 });
             });
