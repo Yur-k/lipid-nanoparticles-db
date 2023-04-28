@@ -8,8 +8,8 @@ ARG modules_dir="/usr/lib/nginx/modules"
 # NGINX image container.
 ################################################################
 
-#FROM debian:stable AS builder
-FROM nginx:1.14.2 as builder
+FROM debian:stable AS builder
+# FROM nginx:1.14.2 as builder
 
 ARG version
 ARG modules_dir
@@ -31,7 +31,8 @@ RUN \
   libssl-dev \
   zlib1g zlib1g-dev \
   libxslt-dev \
-  libgd2-xpm-dev \
+  libgd-dev\
+  # libgd2-xpm-dev \
   libgeoip-dev \
   libpam-dev \
   -y 2>&1 > /dev/null
