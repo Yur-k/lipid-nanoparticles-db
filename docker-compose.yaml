@@ -23,11 +23,6 @@ services:
     restart: on-failure:15
     volumes:
       - ./backend/:/app
-    env_file: .env
-    environment:
-      - MONGO_INITDB_USERNAME=${MONGO_INITDB_USERNAME}
-      - MONGO_INITDB_PASSWORD=${MONGO_INITDB_PASSWORD}
-      - MONGO_INITDB_DATABASE=${MONGO_INITDB_DATABASE}
     depends_on:
       mongodb:
         condition: service_started
