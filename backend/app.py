@@ -168,25 +168,6 @@ def get_np_corona_page():
     return render_template("coronas.html", table=nanoparticles_corona_data)
 
 
-# @app.route("/proteins", methods=["GET"])
-# def get_proteins_page():
-#     nanoparticles = list(collection.find())
-#     proteins_data = []
-#     for item in nanoparticles:
-#         for corona in item['coronas']:
-#             for protein in corona['proteins']:
-#                 proteins_data.append({
-#                     'nanoparticle_type': item['type'],
-#                     'exposure_time': corona['exposure_time'],
-#                     'experiment_type': corona['experiment_type'],
-#                     'protein_name': protein['name'],
-#                     'rpa': protein['rpa'],
-#                     'np_id': item["_id"],
-#                     'doi': item['article']['article_doi']
-#                 })
-#     return render_template("proteins.html", proteins=proteins_data)
-
-
 @app.route('/nanoparticles', methods=['GET'])
 def get_nanoparticles_page():
     nanoparticles = list(collection.find())
@@ -226,7 +207,8 @@ def get_api_doc_page():
 
 @app.route("/schema", methods=["GET"])
 def get_db_schema_page():
-    return render_template("schema.html", domain="http://localhost")
+    return render_template("schema.html")
+
 
 if __name__ == "__main__":
     app.run(debug=True, host="0.0.0.0")
