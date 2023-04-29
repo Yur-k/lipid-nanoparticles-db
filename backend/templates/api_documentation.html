@@ -2,65 +2,68 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    {% include "common_head_scripts.html" %}
-    <title>API Documentation</title>
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            font-size: 16px;
-            line-height: 1.6;
-            margin: 25px;
-        }
+  <meta charset="UTF-8">
+  {% include "common_head_scripts.html" %}
+  <title>API Documentation</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      font-size: 18px;
+      line-height: 1.6;
+    }
 
-        h1,
-        h2,
-        h3 {
-            margin-top: 0;
-        }
+    main {
+      padding: 2em;
+      max-width: 1160px;
+      margin: 0 auto;
+    }
 
-        pre {
-            background-color: #f4f4f4;
-            padding: 10px;
-            overflow-x: auto;
-            max-width: 100%;
-            white-space: pre-wrap;
-            border-radius: 4px;
-            border: 1px solid #ccc;
-        }
+    pre {
+      background-color: #f4f4f4;
+      padding: 10px;
+      overflow-x: auto;
+      max-width: 100%;
+      white-space: pre-wrap;
+      border-radius: 4px;
+      border: 1px solid #ccc;
+    }
 
-        code {
-            font-family: monospace;
-            background-color: #f4f4f4;
-            padding: 2px 4px;
-            border-radius: 4px;
-            border: 1px solid #ccc;
-        }
-    </style>
+    code {
+      font-family: monospace;
+      background-color: #f4f4f4;
+      padding: 2px 4px;
+      border-radius: 4px;
+      border: 1px solid #ccc;
+    }
+  </style>
 </head>
 
 
 <body>
-    {% include "common_buttons.html" %}
-    <h1 class="text-center my-1">API Documentation</h1>
-    <h2>API Overview</h2>
+  {% include "common_buttons.html" %}
+  <div class="container">
+    <div class="col-12">
+        <h1 class="text-center my-1">API Documentation</h1>
+    </div>
+  </div>
+  <main>
     <p>This API provides a way to manage nanoparticles. It allows you to add, update, get, and delete nanoparticles. The
-        API uses JSON format for input and output.
+      API uses JSON format for input and output.
     </p>
-    <a href="/schema" class="btn btn-primary mb-2" target="_blank" >Schema documentation</a>
+    <a href="/schema" class="btn btn-primary mb-2" target="_blank">Schema documentation</a>
     <h2>Base URL</h2>
     <p>The base URL for this API is <code>{{ domain }}</code>.</p>
     <h2>Endpoints</h2>
     <ul>
-        <li>Health Check: <code>GET /health</code></li>
-        <li>Add a nanoparticle: <code>POST /api/np/add</code></li>
-        <li>Update a nanoparticle: <code>PUT /api/np/update/{id}</code></li>
-        <li>Get all nanoparticles: <code>GET /api/np/get</code></li>
-        <li>Get a nanoparticle by ID: <code>GET /api/np/get/{id}</code></li>
+      <li>Health Check: <code>GET /health</code></li>
+      <li>Add a nanoparticle: <code>POST /api/np/add</code></li>
+      <li>Update a nanoparticle: <code>PUT /api/np/update/{id}</code></li>
+      <li>Get all nanoparticles: <code>GET /api/np/get</code></li>
+      <li>Get a nanoparticle by ID: <code>GET /api/np/get/{id}</code></li>
     </ul>
     <h3>Health Check Endpoint</h3>
     <p>The Health Check endpoint is used to check if the API is up and running. It returns a JSON response with a
-        message "ok" if the API is running successfully.
+      message "ok" if the API is running successfully.
     </p>
     <p><strong>Example Request:</strong></p>
     <pre>GET {{ domain }}/health</pre>
@@ -73,7 +76,7 @@
     </pre>
     <h3>Add a Nanoparticle Endpoint</h3>
     <p>The Add a Nanoparticle endpoint is used to add one or more nanoparticles to the database. You can either provide
-        a single nanoparticle as a dictionary or a list of nanoparticles.
+      a single nanoparticle as a dictionary or a list of nanoparticles.
     </p>
     <p><strong>Example Request:</strong></p>
     <pre>
@@ -93,7 +96,7 @@
     </pre>
     <h3>Update a Nanoparticle Endpoint</h3>
     <p>The Update a Nanoparticle endpoint is used to update a nanoparticle in the database. You need to provide the ID
-        of the nanoparticle you want to update and the new data.
+      of the nanoparticle you want to update and the new data.
     </p>
     <p><strong>Example Request:</strong></p>
     <pre>
@@ -136,16 +139,17 @@
     </pre>
     <h3>Possible Error Responses</h3>
     <ul>
-        <li>400 Bad Request: Returned if the input data is invalid.</li>
-        <li>404 Not Found: Returned if the requested nanoparticle or endpoint is not found.</li>
-        <li>409 Conflict: Returned if the nanoparticle is a duplicate and cannot be added or updated.</li>
-        <li>500 Internal Server Error: Returned if the API encounters an unexpected error.</li>
+      <li>400 Bad Request: Returned if the input data is invalid.</li>
+      <li>404 Not Found: Returned if the requested nanoparticle or endpoint is not found.</li>
+      <li>409 Conflict: Returned if the nanoparticle is a duplicate and cannot be added or updated.</li>
+      <li>500 Internal Server Error: Returned if the API encounters an unexpected error.</li>
     </ul>
     <h3>Authentication</h3>
     <p>This API does not require authentication.</p>
     <h3>Versioning</h3>
     <p>This API does not currently support versioning. Any changes to the API will be documented in this documentation.
     </p>
+  </main>
 </body>
 
 </html>
