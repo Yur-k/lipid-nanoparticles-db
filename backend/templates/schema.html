@@ -48,6 +48,8 @@
                     <li><b>pdi</b> (number or null, optional): The polydispersity index of the nanoparticle.</li>
                     <li><b>exposure_time</b> (number or null, optional): The exposure time of the experiment in minutes.
                     </li>
+                    <li><b>protein_source</b> (string or null, optional): Source of protein.
+                    </li>
                     <li><b>experiment_type</b> (string, required): The type of experiment conducted: in vivo/in vitro.
                     </li>
                     <li><b>proteins</b> (array, required): The list of proteins found in the protein corona.
@@ -79,6 +81,8 @@
         "experiment_type": "in vitro",
         "exposure_time": 60,
         "mean_hydrodynamic_diameter": 111,
+        "protein_source": "Mouse Plasma",
+        "zeta_potential": -7
         "pdi": null,
         "proteins": [
             {
@@ -90,7 +94,6 @@
             "rpa": 4.639
             }
         ],
-        "zeta_potential": -7
         }
     ],
 }

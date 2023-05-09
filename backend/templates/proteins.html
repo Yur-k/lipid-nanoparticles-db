@@ -32,6 +32,7 @@
                                 <th>RPA</th>
                                 <th>Experiment Type</th>
                                 <th>Exposure Time</th>
+                                <th>Protein source</th>
                                 <th>Article DOI</th>
                                 <th>Nanoparticle ID</th>
                             </tr>
@@ -44,6 +45,7 @@
                                 <td>{{ protein.rpa }}</td>
                                 <td>{{ protein.experiment_type }}</td>
                                 <td>{{ protein.exposure_time }}</td>
+                                <td>{{ protein.protein_source }}</td>
                                 <td>{{ protein.doi }}</td>
                                 <td><a href="{{ url_for('get_nanoparticle_page', id=protein.np_id) }}">{{ protein.np_id }}</a></td>
                             </tr>
