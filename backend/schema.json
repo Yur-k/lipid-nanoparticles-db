@@ -93,10 +93,7 @@
               "description": "The exposure time of the experiment in minutes"
             },
             "protein_source": {
-              "bsonType": [
-                "string",
-                "null"
-              ],
+              "bsonType":"string",
               "description": "Source of protein"
             },
             "experiment_type": {
