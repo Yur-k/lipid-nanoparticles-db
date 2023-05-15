@@ -34,6 +34,7 @@
                                 <th>Zeta Potential (mV)</th>
                                 <th>PDI</th>
                                 <th>Exposure Time (min)</th>
+                                <th>Protein source</th>
                                 <th>Experiment Type</th>
                                 <th>Proteins</th>
                                 <th>Nanoparticle ID</th>
@@ -48,6 +49,7 @@
                                 <td>{{ row.zeta_potential }}</td>
                                 <td>{{ row.pdi }}</td>
                                 <td>{{ row.exposure_time }}</td>
+                                <td>{{ row.protein_source }}</td>
                                 <td>{{ row.experiment_type }}</td>
                                 <td>{{ row.proteins|join(', ') }}</td>
                                 <td><a href="{{ url_for('get_nanoparticle_page', id=row.np_id) }}">{{ row.np_id }}</a></td>
