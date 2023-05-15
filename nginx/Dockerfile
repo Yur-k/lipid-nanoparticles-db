@@ -9,7 +9,6 @@ ARG modules_dir="/usr/lib/nginx/modules"
 ################################################################
 
 FROM debian:stable AS builder
-# FROM nginx:1.14.2 as builder
 
 ARG version
 ARG modules_dir
@@ -32,7 +31,6 @@ RUN \
   zlib1g zlib1g-dev \
   libxslt-dev \
   libgd-dev\
-  # libgd2-xpm-dev \
   libgeoip-dev \
   libpam-dev \
   -y 2>&1 > /dev/null
