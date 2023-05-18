@@ -1,0 +1,3966 @@
+[
+  {
+    "article": {
+      "article_doi": "10.1039/C5NR09158F",
+      "title": "Time-evolution of in vivo protein corona onto blood-circulating PEGylated liposomal doxorubicin (DOXIL) nanoparticles"
+    },
+    "coronas": [
+      {
+        "experiment_type": "in vivo",
+        "exposure_time": 10,
+        "mean_hydrodynamic_diameter": 102.0,
+        "pdi": 0.123,
+        "protein_source": "Mouse Plasma",
+        "proteins": [
+          {
+            "name": "Alpha-2-macroglobulin",
+            "rpa": 8.02
+          },
+          {
+            "name": "Apolipoprotein C-III",
+            "rpa": 6.37
+          },
+          {
+            "name": "Hemoglobin subunit beta-1",
+            "rpa": 5.79
+          },
+          {
+            "name": "Apolipoprotein E",
+            "rpa": 5.57
+          },
+          {
+            "name": "Beta-globin, Hbbt1 (A8DUK2)",
+            "rpa": 4.48
+          },
+          {
+            "name": "Apolipoprotein A-I",
+            "rpa": 3.31
+          },
+          {
+            "name": "Hemoglobin subunit beta-2",
+            "rpa": 2.93
+          },
+          {
+            "name": "Alpha-globin",
+            "rpa": 2.74
+          },
+          {
+            "name": "Ig mu chain C region",
+            "rpa": 2.62
+          },
+          {
+            "name": "Putative uncharacterized protein",
+            "rpa": 2.54
+          },
+          {
+            "name": "Serum albumin",
+            "rpa": 2.35
+          },
+          {
+            "name": "APOAII",
+            "rpa": 1.89
+          },
+          {
+            "name": "If kappa light chain (Fragment)",
+            "rpa": 1.16
+          },
+          {
+            "name": "Serine protease inhibitor A3K",
+            "rpa": 1.14
+          },
+          {
+            "name": "Complement C3",
+            "rpa": 0.95
+          },
+          {
+            "name": "Protein Ighv7-1",
+            "rpa": 0.94
+          },
+          {
+            "name": "Serotransferrin",
+            "rpa": 0.93
+          },
+          {
+            "name": "Mannose-binding protein C",
+            "rpa": 0.91
+          },
+          {
+            "name": "Apolipoprotein B-100",
+            "rpa": 0.91
+          },
+          {
+            "name": "Ig lambda-2 chain C region",
+            "rpa": 0.9
+          },
+          {
+            "name": "Anti-colorectal carcinoma light chain",
+            "rpa": 0.86
+          }
+        ],
+        "zeta_potential": -35.5
+      },
+      {
+        "experiment_type": "in vivo",
+        "exposure_time": 60,
+        "mean_hydrodynamic_diameter": 104.0,
+        "pdi": 0.127,
+        "protein_source": "Mouse Plasma",
+        "proteins": [
+          {
+            "name": "Apolipoprotein E",
+            "rpa": 8.19
+          },
+          {
+            "name": "Alpha-2-macroglobulin",
+            "rpa": 7.66
+          },
+          {
+            "name": "Apolipoprotein C-III",
+            "rpa": 4.86
+          },
+          {
+            "name": "Serum albumin",
+            "rpa": 4.41
+          },
+          {
+            "name": "Apolipoprotein E",
+            "rpa": 3.87
+          },
+          {
+            "name": "Hemoglobin subunit beta-1",
+            "rpa": 3.82
+          },
+          {
+            "name": "Apolipoprotein A-I",
+            "rpa": 3.25
+          },
+          {
+            "name": "Serine protease inhibitor A3K",
+            "rpa": 2.63
+          },
+          {
+            "name": "Ig mu chain C region",
+            "rpa": 2.23
+          },
+          {
+            "name": "Hemoglobin subunit beta-2",
+            "rpa": 2.2
+          },
+          {
+            "name": "Alpha-globin",
+            "rpa": 1.97
+          },
+          {
+            "name": "Serotransferrin",
+            "rpa": 1.73
+          },
+          {
+            "name": "Beta-globin, Hbbt1 (A8DUK2)",
+            "rpa": 1.3
+          },
+          {
+            "name": "Complement C3",
+            "rpa": 1.24
+          },
+          {
+            "name": "Aberrantly recombined kappa chain",
+            "rpa": 1.1
+          },
+          {
+            "name": "Alpha-1B-glycoprotein",
+            "rpa": 1.09
+          },
+          {
+            "name": "\u0391\u03a1\u039f\u0391\u0399",
+            "rpa": 1.04
+          },
+          {
+            "name": "If kappa light chain (Fragment)",
+            "rpa": 1.02
+          },
+          {
+            "name": "Apolipoprotein B-100",
+            "rpa": 0.97
+          },
+          {
+            "name": "Protein Ighv7-1",
+            "rpa": 0.95
+          },
+          {
+            "name": "Alpha-1-antitrypsin 1-3",
+            "rpa": 0.94
+          }
+        ],
+        "zeta_potential": -33.5
+      },
+      {
+        "experiment_type": "in vivo",
+        "exposure_time": 180,
+        "mean_hydrodynamic_diameter": 103.1,
+        "pdi": 0.104,
+        "protein_source": "Mouse Plasma",
+        "proteins": [
+          {
+            "name": "Hemoglobin subunit beta-1",
+            "rpa": 8.58
+          },
+          {
+            "name": "Apolipoprotein E",
+            "rpa": 7.3
+          },
+          {
+            "name": "Apolipoprotein C-lil",
+            "rpa": 6.65
+          },
+          {
+            "name": "Alpha-2-macroglobuiin",
+            "rpa": 6.42
+          },
+          {
+            "name": "Beta-globin, Hbbt1 (ABDUK2)",
+            "rpa": 6.02
+          },
+          {
+            "name": "Hemoglobin subunit beta-2",
+            "rpa": 4.54
+          },
+          {
+            "name": "Alpha-globin",
+            "rpa": 3.77
+          },
+          {
+            "name": "Apolipoprotein Al",
+            "rpa": 2.14
+          },
+          {
+            "name": "Fibrinogen beta chain",
+            "rpa": 1.98
+          },
+          {
+            "name": "Fibrinogen gamma chain",
+            "rpa": 1.92
+          },
+          {
+            "name": "Putative uncharacterized protein",
+            "rpa": 1.68
+          },
+          {
+            "name": "Ig mu chain C region",
+            "rpa": 1.56
+          },
+          {
+            "name": "Serum albumin",
+            "rpa": 1.5
+          },
+          {
+            "name": "Fibrinogen alpha chain",
+            "rpa": 1.4
+          },
+          {
+            "name": "Serine protease inhibitor A3K",
+            "rpa": 1.27
+          },
+          {
+            "name": "If kappa light chain (Fragment)",
+            "rpa": 1.18
+          },
+          {
+            "name": "APOAII",
+            "rpa": 1.01
+          },
+          {
+            "name": "Protein Ighv7-1",
+            "rpa": 0.96
+          },
+          {
+            "name": "Protein Ighv1-18",
+            "rpa": 0.94
+          },
+          {
+            "name": "Apolipoprotein B-100",
+            "rpa": 0.92
+          },
+          {
+            "name": "Anti-colorectal carcinoma light chain",
+            "rpa": 0.85
+          }
+        ],
+        "zeta_potential": -34.1
+      }
+    ],
+    "mean_hydrodynamic_diameter": 114.6,
+    "pdi": 0.056,
+    "protein_identification_method": "LC-MS-MS",
+    "type": "HSPC:DSPG:Chol:PEG2000",
+    "zeta_potential": -36.2
+  },
+  {
+    "article": {
+      "article_doi": "10.1021/acsnano.5b03300",
+      "title": "In Vivo Biomolecule Corona around Blood-Circulating, Clinically Used and Antibody-Targeted Lipid Bilayer Nanoscale Vesicles"
+    },
+    "coronas": [
+      {
+        "experiment_type": "in vitro",
+        "exposure_time": 10,
+        "mean_hydrodynamic_diameter": 119.2,
+        "pdi": 0.17,
+        "protein_source": "Mouse Plasma",
+        "proteins": [
+          {
+            "name": "Apolipoprotein E",
+            "rpa": 5.55
+          },
+          {
+            "name": "Alpha-2-macroglobulin",
+            "rpa": 5.33
+          },
+          {
+            "name": "Fibrinogen beta chain",
+            "rpa": 5.03
+          },
+          {
+            "name": "Fibrinogen gamma chain",
+            "rpa": 3.35
+          },
+          {
+            "name": "Ig mu chain Cregion",
+            "rpa": 3.18
+          },
+          {
+            "name": "Protein Fga",
+            "rpa": 3.0
+          },
+          {
+            "name": "Apolipoprotein C-III",
+            "rpa": 2.09
+          },
+          {
+            "name": "Apolipoprotein C-I",
+            "rpa": 2.0
+          },
+          {
+            "name": "Apolipoprotein B-100",
+            "rpa": 1.88
+          },
+          {
+            "name": "Serum albumin",
+            "rpa": 1.87
+          },
+          {
+            "name": "Ig kappa chain C region",
+            "rpa": 1.84
+          },
+          {
+            "name": "Hemoglobin subunit beta-1",
+            "rpa": 1.79
+          },
+          {
+            "name": "Ig heavy chain V region",
+            "rpa": 1.51
+          },
+          {
+            "name": "Thrombospondin-1",
+            "rpa": 1.44
+          },
+          {
+            "name": "Ig heavy chain V-IIIregion",
+            "rpa": 1.35
+          },
+          {
+            "name": "Apolipoprotein A-I",
+            "rpa": 1.2
+          },
+          {
+            "name": "Alpha-globin 1",
+            "rpa": 1.2
+          },
+          {
+            "name": "Alpha-18-glycoprotein",
+            "rpa": 1.06
+          },
+          {
+            "name": "Serotransferrin",
+            "rpa": 1.04
+          },
+          {
+            "name": "Actin, cytoplasmic 1",
+            "rpa": 1.04
+          }
+        ],
+        "zeta_potential": -36.54
+      },
+      {
+        "experiment_type": "in vivo",
+        "exposure_time": 10,
+        "mean_hydrodynamic_diameter": 104.76,
+        "pdi": 0.17,
+        "protein_source": "Mouse Plasma",
+        "proteins": [
+          {
+            "name": "Apolipoprotein C-III",
+            "rpa": 4.93
+          },
+          {
+            "name": "Apolipoprotein E",
+            "rpa": 3.54
+          },
+          {
+            "name": "Hemoglobin subunit beta-1",
+            "rpa": 3.34
+          },
+          {
+            "name": "Beta-globin",
+            "rpa": 3.17
+          },
+          {
+            "name": "Alpha-2-macroglobulin",
+            "rpa": 2.96
+          },
+          {
+            "name": "Alpha-globin 1",
+            "rpa": 2.0
+          },
+          {
+            "name": "Ig mu chain Cregion",
+            "rpa": 1.99
+          },
+          {
+            "name": "Serum albumin",
+            "rpa": 1.87
+          },
+          {
+            "name": "Hemoglobin subunit beta-2",
+            "rpa": 1.84
+          },
+          {
+            "name": "Apolipoprotein A-I",
+            "rpa": 1.46
+          },
+          {
+            "name": "Apolipoprotein C-I",
+            "rpa": 1.37
+          },
+          {
+            "name": "Fibrinogen beta chain",
+            "rpa": 1.35
+          },
+          {
+            "name": "Apolipoprotein B-100",
+            "rpa": 1.21
+          },
+          {
+            "name": "Fibrinogen gamma chain",
+            "rpa": 1.17
+          },
+          {
+            "name": "Ig heavy chain V-III",
+            "rpa": 1.12
+          },
+          {
+            "name": "Mannose-binding protein C",
+            "rpa": 1.07
+          },
+          {
+            "name": "Apolipoprotein C-IV",
+            "rpa": 0.99
+          },
+          {
+            "name": "Apolipoprotein C-II",
+            "rpa": 0.99
+          },
+          {
+            "name": "Complement C3",
+            "rpa": 0.96
+          },
+          {
+            "name": "Apolipoprotein A-II",
+            "rpa": 0.9
+          }
+        ],
+        "zeta_potential": -27.87
+      }
+    ],
+    "mean_hydrodynamic_diameter": 127.77,
+    "pdi": 0.05,
+    "protein_identification_method": "LC-MS-MS",
+    "type": "HSPC:Chol",
+    "zeta_potential": -20.3
+  },
+  {
+    "article": {
+      "article_doi": "10.1021/acsnano.5b03300",
+      "title": "In Vivo Biomolecule Corona around Blood-Circulating, Clinically Used and Antibody-Targeted Lipid Bilayer Nanoscale Vesicles"
+    },
+    "coronas": [
+      {
+        "experiment_type": "in vitro",
+        "exposure_time": 10,
+        "mean_hydrodynamic_diameter": 113.97,
+        "pdi": 0.18,
+        "protein_source": "Mouse Plasma",
+        "proteins": [
+          {
+            "name": "Apolipoprotein E",
+            "rpa": 5.74
+          },
+          {
+            "name": "Fibrinogen betachain",
+            "rpa": 4.86
+          },
+          {
+            "name": "Alpha-2-macroglobulin",
+            "rpa": 3.75
+          },
+          {
+            "name": "Fibrinogen gamma chain",
+            "rpa": 3.38
+          },
+          {
+            "name": "Protein Fga",
+            "rpa": 3.27
+          },
+          {
+            "name": "Ig kappa chain C region",
+            "rpa": 2.67
+          },
+          {
+            "name": "Apolipoprotein B-100",
+            "rpa": 2.37
+          },
+          {
+            "name": "Apolipoprotein C-III",
+            "rpa": 2.13
+          },
+          {
+            "name": "Ig mu chain C region",
+            "rpa": 2.04
+          },
+          {
+            "name": "Serum albumin",
+            "rpa": 1.75
+          },
+          {
+            "name": "Hemoglobin subunit beta-1",
+            "rpa": 1.69
+          },
+          {
+            "name": "Hemoglobin subunit beta-2",
+            "rpa": 1.54
+          },
+          {
+            "name": "Thrombospondin-1",
+            "rpa": 1.34
+          },
+          {
+            "name": "Beta-globin",
+            "rpa": 1.33
+          },
+          {
+            "name": "Ig heavy chain V-III region",
+            "rpa": 1.28
+          },
+          {
+            "name": "Actin, cytoplasmic 1",
+            "rpa": 1.22
+          },
+          {
+            "name": "Complement C3",
+            "rpa": 1.21
+          },
+          {
+            "name": "Complement C1q subcomponent subunit B",
+            "rpa": 1.17
+          },
+          {
+            "name": "Ig heavy chain V region",
+            "rpa": 1.16
+          },
+          {
+            "name": "Alpha-globin 1",
+            "rpa": 1.13
+          }
+        ],
+        "zeta_potential": -37.51
+      },
+      {
+        "experiment_type": "in vivo",
+        "exposure_time": 10,
+        "mean_hydrodynamic_diameter": 100.98,
+        "pdi": 0.15,
+        "protein_source": "Mouse Plasma",
+        "proteins": [
+          {
+            "name": "Apolipoprotein C-III",
+            "rpa": 4.53
+          },
+          {
+            "name": "Apolipoprotein E",
+            "rpa": 3.46
+          },
+          {
+            "name": "Hemoglobin subunit beta-1",
+            "rpa": 2.89
+          },
+          {
+            "name": "Alpha-globin 1",
+            "rpa": 2.24
+          },
+          {
+            "name": "Alpha-2-macroglobulin",
+            "rpa": 2.15
+          },
+          {
+            "name": "Hemoglobin subunit beta-2",
+            "rpa": 2.05
+          },
+          {
+            "name": "Ig mu chain Cregion",
+            "rpa": 1.86
+          },
+          {
+            "name": "Beta-globin",
+            "rpa": 1.64
+          },
+          {
+            "name": "Apolipoprotein C-MV",
+            "rpa": 1.53
+          },
+          {
+            "name": "Ig kappa chain C",
+            "rpa": 1.11
+          },
+          {
+            "name": "Ig heavy chain V-III",
+            "rpa": 1.08
+          },
+          {
+            "name": "Apolipoprotein A-I",
+            "rpa": 1.04
+          },
+          {
+            "name": "Ig heavy chain V region",
+            "rpa": 0.98
+          },
+          {
+            "name": "Apolipoprotein B-100",
+            "rpa": 0.97
+          },
+          {
+            "name": "Complement C3",
+            "rpa": 0.92
+          },
+          {
+            "name": "Serum albumin",
+            "rpa": 0.84
+          },
+          {
+            "name": "Apolipoprotein M",
+            "rpa": 0.82
+          },
+          {
+            "name": "Fibrinogen beta chain",
+            "rpa": 0.77
+          },
+          {
+            "name": "Vitronectin",
+            "rpa": 0.76
+          },
+          {
+            "name": "Actin, cytoplasmic 1",
+            "rpa": 0.76
+          }
+        ],
+        "zeta_potential": -30.37
+      }
+    ],
+    "mean_hydrodynamic_diameter": 119.53,
+    "pdi": 0.05,
+    "protein_identification_method": "LC-MS-MS",
+    "type": "HSPC:DSPG:Chol:PEG2000",
+    "zeta_potential": -30.17
+  },
+  {
+    "article": {
+      "article_doi": "10.1039/C6RA25493D",
+      "title": "In vivo protein corona patterns of lipid nanoparticles"
+    },
+    "coronas": [
+      {
+        "experiment_type": "in vitro",
+        "exposure_time": 10,
+        "mean_hydrodynamic_diameter": 334.0,
+        "pdi": 0.312,
+        "protein_source": "Mouse Plasma",
+        "proteins": [
+          {
+            "name": "Fibrinogen beta chain",
+            "rpa": 16.69
+          },
+          {
+            "name": "Fibrinogen gamma chain",
+            "rpa": 14.48
+          },
+          {
+            "name": "Serum albumin",
+            "rpa": 4.8
+          },
+          {
+            "name": "C4b-binding protein",
+            "rpa": 2.37
+          },
+          {
+            "name": "Coagulation factor XIII B chain",
+            "rpa": 1.51
+          },
+          {
+            "name": "Coagulation factor XIII A chain",
+            "rpa": 1.47
+          },
+          {
+            "name": "Actin, cytoplasmic 2",
+            "rpa": 1.44
+          },
+          {
+            "name": "Fibronectin",
+            "rpa": 1.42
+          },
+          {
+            "name": "Alpha-1-antitrypsin 1\u20133",
+            "rpa": 1.31
+          },
+          {
+            "name": "Ig kappa chain C region",
+            "rpa": 1.23
+          },
+          {
+            "name": "Serine protease inhibitor A3K",
+            "rpa": 1.22
+          },
+          {
+            "name": "Serotransferrin",
+            "rpa": 1.14
+          },
+          {
+            "name": "Peroxiredoxin-2",
+            "rpa": 1.11
+          },
+          {
+            "name": "Alpha-1-antitrypsin 1\u20132",
+            "rpa": 1.11
+          },
+          {
+            "name": "Plasminogen",
+            "rpa": 1.05
+          },
+          {
+            "name": "Apolipoprotein A-I",
+            "rpa": 1
+          },
+          {
+            "name": "Thymosin beta-4",
+            "rpa": 0.91
+          },
+          {
+            "name": "Antithrombin-III",
+            "rpa": 0.83
+          },
+          {
+            "name": "Carbonic anhydrase 2",
+            "rpa": 0.83
+          },
+          {
+            "name": "Beta-2-glycoprotein 1",
+            "rpa": 0.82
+          },
+          {
+            "name": "Vitronectin",
+            "rpa": 0.78
+          },
+          {
+            "name": "Apolipoprotein E",
+            "rpa": 0.77
+          },
+          {
+            "name": "Alpha-1-antitrypsin 1\u20134",
+            "rpa": 0.68
+          },
+          {
+            "name": "Band 3 anion transport protein",
+            "rpa": 0.68
+          },
+          {
+            "name": "Ig mu chain C region",
+            "rpa": 0.67
+          }
+        ],
+        "zeta_potential": -26.1
+      },
+      {
+        "experiment_type": "in vivo",
+        "exposure_time": 10,
+        "mean_hydrodynamic_diameter": 266.0,
+        "pdi": 0.296,
+        "protein_source": "Mouse Plasma",
+        "proteins": [
+          {
+            "name": "Serum albumin",
+            "rpa": 4.07
+          },
+          {
+            "name": "Fibrinogen beta chain",
+            "rpa": 2.28
+          },
+          {
+            "name": "Apolipoprotein C-III",
+            "rpa": 2.14
+          },
+          {
+            "name": "Actin, cytoplasmic 2",
+            "rpa": 2.11
+          },
+          {
+            "name": "Fibrinogen gamma chain",
+            "rpa": 1.81
+          },
+          {
+            "name": "Alpha-1-antitrypsin 1-3",
+            "rpa": 1.45
+          },
+          {
+            "name": "Ig kappa chain C region",
+            "rpa": 1.41
+          },
+          {
+            "name": "Alpha-1-antitrypsin 1-2",
+            "rpa": 1.34
+          },
+          {
+            "name": "Actin, alpha cardiac muscle 1",
+            "rpa": 1.24
+          },
+          {
+            "name": "Apolipoprotein A-I",
+            "rpa": 1.12
+          },
+          {
+            "name": "Serine protease inhibitor A3K",
+            "rpa": 1.12
+          },
+          {
+            "name": "Serotransferrin",
+            "rpa": 1.12
+          },
+          {
+            "name": "Ig mu chain C region",
+            "rpa": 0.97
+          },
+          {
+            "name": "C4b-binding protein",
+            "rpa": 0.96
+          },
+          {
+            "name": "Apolipoprotein E",
+            "rpa": 0.96
+          },
+          {
+            "name": "Apolipoprotein C-II",
+            "rpa": 0.78
+          },
+          {
+            "name": "Vitronectin",
+            "rpa": 0.74
+          },
+          {
+            "name": "Myosin light polypeptide 6",
+            "rpa": 0.7
+          },
+          {
+            "name": "14-3-3 protein zeta/delta",
+            "rpa": 0.7
+          },
+          {
+            "name": "Ras-related protein Rap-1b",
+            "rpa": 0.69
+          },
+          {
+            "name": "Complement C3",
+            "rpa": 0.66
+          },
+          {
+            "name": "Peroxiredoxin-2",
+            "rpa": 0.66
+          },
+          {
+            "name": "Tropomyosin alpha-4 chain",
+            "rpa": 0.64
+          },
+          {
+            "name": "ATP synthase subunit beta, mitochondrial",
+            "rpa": 0.64
+          },
+          {
+            "name": "Alpha-2-macroglobulin",
+            "rpa": 0.63
+          }
+        ],
+        "zeta_potential": -20.5
+      }
+    ],
+    "mean_hydrodynamic_diameter": 190.0,
+    "pdi": 0.296,
+    "protein_identification_method": "LC-MS-MS",
+    "type": "HSPC:DSPG:Chol",
+    "zeta_potential": -61.2
+  },
+  {
+    "article": {
+      "article_doi": "10.1021/acsnano.5b03300",
+      "title": "In Vivo Biomolecule Corona around Blood-Circulating, Clinically Used and Antibody-Targeted Lipid Bilayer Nanoscale Vesicles"
+    },
+    "coronas": [
+      {
+        "experiment_type": "in vitro",
+        "exposure_time": 10,
+        "mean_hydrodynamic_diameter": 120.83,
+        "pdi": 0.2,
+        "protein_source": "Mouse Plasma",
+        "proteins": [
+          {
+            "name": "Apolipoprotein E",
+            "rpa": 4.82
+          },
+          {
+            "name": "Fibrinogen beta chain",
+            "rpa": 4.53
+          },
+          {
+            "name": "Alpha-2-macroglobulin",
+            "rpa": 4.21
+          },
+          {
+            "name": "Fibrinogen gamma chain",
+            "rpa": 3.03
+          },
+          {
+            "name": "Protein Fga",
+            "rpa": 2.96
+          },
+          {
+            "name": "Ig mu chain C region",
+            "rpa": 2.49
+          },
+          {
+            "name": "Apolipoprotein C-III",
+            "rpa": 2.29
+          },
+          {
+            "name": "Apolipoprotein B-100",
+            "rpa": 1.94
+          },
+          {
+            "name": "Serum albumin",
+            "rpa": 1.77
+          },
+          {
+            "name": "Ig heavy chain V region",
+            "rpa": 1.74
+          },
+          {
+            "name": "Actin, cytoplasmic 1",
+            "rpa": 1.7
+          },
+          {
+            "name": "Hemoglobin subunit beta-1",
+            "rpa": 1.63
+          },
+          {
+            "name": "Hemoglobin subunit beta-2",
+            "rpa": 1.5
+          },
+          {
+            "name": "Apolipoprotein A-I",
+            "rpa": 1.4
+          },
+          {
+            "name": "Ig kappa chain C region",
+            "rpa": 1.38
+          },
+          {
+            "name": "Thrombospondin-1",
+            "rpa": 1.32
+          },
+          {
+            "name": "Beta-globin",
+            "rpa": 1.31
+          },
+          {
+            "name": "Ig heavy chain V",
+            "rpa": 1.31
+          },
+          {
+            "name": "Ig heavy chain V-III",
+            "rpa": 1.29
+          },
+          {
+            "name": "Alpha-globin 1",
+            "rpa": 1.2
+          }
+        ],
+        "zeta_potential": -36.23
+      },
+      {
+        "experiment_type": "in vivo",
+        "exposure_time": 10,
+        "mean_hydrodynamic_diameter": 103.86,
+        "pdi": 0.2,
+        "protein_source": "Mouse Plasma",
+        "proteins": [
+          {
+            "name": "Apolipoprotein E",
+            "rpa": 2.79
+          },
+          {
+            "name": "Apolipoprotein C-III",
+            "rpa": 2.66
+          },
+          {
+            "name": "Alpha-2-macroglobulin",
+            "rpa": 2.49
+          },
+          {
+            "name": "Hemoglobin subunit beta-1",
+            "rpa": 2.44
+          },
+          {
+            "name": "Apolipoprotein C-IV",
+            "rpa": 1.58
+          },
+          {
+            "name": "Ig mu chain C region",
+            "rpa": 1.55
+          },
+          {
+            "name": "Hemoglobin subunit beta-2",
+            "rpa": 1.47
+          },
+          {
+            "name": "Serum albumin",
+            "rpa": 1.2
+          },
+          {
+            "name": "Alpha-globin 1",
+            "rpa": 1.1
+          },
+          {
+            "name": "Ig kappa chain C",
+            "rpa": 1.03
+          },
+          {
+            "name": "Ig heavy chain V region",
+            "rpa": 0.93
+          },
+          {
+            "name": "Apolipoprotein C-I",
+            "rpa": 0.89
+          },
+          {
+            "name": "60S ribosomal protein",
+            "rpa": 0.89
+          },
+          {
+            "name": "Complement C3",
+            "rpa": 0.85
+          },
+          {
+            "name": "Vitronectin",
+            "rpa": 0.84
+          },
+          {
+            "name": "Apolipoprotein A-I",
+            "rpa": 0.82
+          },
+          {
+            "name": "Immunoglobulin J chain",
+            "rpa": 0.82
+          },
+          {
+            "name": "Corticosteroid 11-beta-dehydrogenase isozyme",
+            "rpa": 0.75
+          },
+          {
+            "name": "Apolipoprotein B-100",
+            "rpa": 0.74
+          },
+          {
+            "name": "Complement C1q",
+            "rpa": 0.73
+          }
+        ],
+        "zeta_potential": -32.1
+      }
+    ],
+    "mean_hydrodynamic_diameter": 121.73,
+    "pdi": 0.05,
+    "protein_identification_method": "LC-MS-MS",
+    "type": "HSPC:DSPG:Chol:PEG2000:Ab",
+    "zeta_potential": -29.93
+  },
+  {
+    "article": {
+      "article_doi": "10.1039/C4RA13335H",
+      "title": "Lipid composition: a 'key factor' for the rational manipulation of the liposome-protein corona by liposome design"
+    },
+    "coronas": [
+      {
+        "experiment_type": "in vivo",
+        "exposure_time": 60,
+        "mean_hydrodynamic_diameter": 156.5,
+        "protein_source": "Human Plasma",
+        "pdi": null,
+        "proteins": [
+          {
+            "name": "Vitronectin",
+            "rpa": 13.33
+          },
+          {
+            "name": "Fibrinogen beta chain",
+            "rpa": 5.16
+          },
+          {
+            "name": "Prothrombin",
+            "rpa": 5.11
+          },
+          {
+            "name": "Serum albumin",
+            "rpa": 4.48
+          },
+          {
+            "name": "Apolipoprotein A-II",
+            "rpa": 4.12
+          },
+          {
+            "name": "Fibrinogen gamma chain",
+            "rpa": 3.16
+          },
+          {
+            "name": "Ig kappa chain C region",
+            "rpa": 3.16
+          },
+          {
+            "name": "Ig lambda chain C regions",
+            "rpa": 2.74
+          },
+          {
+            "name": "Complement C3",
+            "rpa": 2.61
+          },
+          {
+            "name": "Fibrinogen alpha chain",
+            "rpa": 2.48
+          },
+          {
+            "name": "Apolipoprotein C-II",
+            "rpa": 2.32
+          },
+          {
+            "name": "Clusterin",
+            "rpa": 2.31
+          },
+          {
+            "name": "Apolipoprotein C-III",
+            "rpa": 2.05
+          },
+          {
+            "name": "Vitamin K-dependent protein S",
+            "rpa": 1.96
+          },
+          {
+            "name": "Apolipoprotein F",
+            "rpa": 1.77
+          },
+          {
+            "name": "Vitamin K-dependent protein C",
+            "rpa": 1.13
+          },
+          {
+            "name": "Vitamin K-dependent protein Z",
+            "rpa": 1.1
+          },
+          {
+            "name": "Apolipoprotein A-I",
+            "rpa": 1.06
+          },
+          {
+            "name": "Apolipoprotein E",
+            "rpa": 0.94
+          },
+          {
+            "name": "Complement C1s subcomponent",
+            "rpa": 0.92
+          },
+          {
+            "name": "Apolipoprotein B-100",
+            "rpa": 0.66
+          },
+          {
+            "name": "Complement component C9",
+            "rpa": 0.44
+          },
+          {
+            "name": "Ig heavy chain V-III region BRO",
+            "rpa": 0.29
+          },
+          {
+            "name": "Complement factor B",
+            "rpa": 0.26
+          },
+          {
+            "name": "Apolipoprotein M",
+            "rpa": 0.24
+          },
+          {
+            "name": "Ig kappa chain V-IV region Len",
+            "rpa": 0.24
+          }
+        ],
+        "zeta_potential": -1.5
+      }
+    ],
+    "mean_hydrodynamic_diameter": 78.8,
+    "pdi": null,
+    "protein_identification_method": "LC-MS-MS",
+    "type": "DOTAP",
+    "zeta_potential": 55.7
+  },
+  {
+    "article": {
+      "article_doi": "10.1039/C4RA13335H",
+      "title": "Lipid composition: a 'key factor' for the rational manipulation of the liposome-protein corona by liposome design"
+    },
+    "coronas": [
+      {
+        "experiment_type": "in vivo",
+        "exposure_time": 60,
+        "mean_hydrodynamic_diameter": 178.1,
+        "protein_source": "Human Plasma",
+        "pdi": null,
+        "proteins": [
+          {
+            "name": "Apolipoprotein C-III",
+            "rpa": 16.8
+          },
+          {
+            "name": "Vitronectin",
+            "rpa": 8.93
+          },
+          {
+            "name": "Serum albumin",
+            "rpa": 8.56
+          },
+          {
+            "name": "Clusterin",
+            "rpa": 3.75
+          },
+          {
+            "name": "Apolipoprotein C-II",
+            "rpa": 3.24
+          },
+          {
+            "name": "Apolipoprotein A-I",
+            "rpa": 2.01
+          },
+          {
+            "name": "Apolipoprotein D",
+            "rpa": 1.69
+          },
+          {
+            "name": "Ig gamma-1 chain C region",
+            "rpa": 1.56
+          },
+          {
+            "name": "Apolipoprotein A-IV",
+            "rpa": 1.44
+          },
+          {
+            "name": "Ig kappa chain C region",
+            "rpa": 1.38
+          },
+          {
+            "name": "Fibrinogen beta chain",
+            "rpa": 1.32
+          },
+          {
+            "name": "Apolipoprotein E",
+            "rpa": 1.21
+          },
+          {
+            "name": "Complement C3",
+            "rpa": 1.16
+          },
+          {
+            "name": "Prothrombin",
+            "rpa": 1.13
+          },
+          {
+            "name": "Ig gamma-2 chain C region",
+            "rpa": 1.09
+          },
+          {
+            "name": "Ig lambda-2 chain C regions",
+            "rpa": 1.0
+          },
+          {
+            "name": "Fibrinogen gamma chain",
+            "rpa": 0.96
+          },
+          {
+            "name": "Apolipoprotein C-I",
+            "rpa": 0.91
+          },
+          {
+            "name": "Apolipoprotein A-II",
+            "rpa": 0.82
+          },
+          {
+            "name": "Fibrinogen alpha chain",
+            "rpa": 0.59
+          },
+          {
+            "name": "Complement C4-B",
+            "rpa": 0.49
+          },
+          {
+            "name": "Apolipoprotein M",
+            "rpa": 0.47
+          },
+          {
+            "name": "Apolipoprotein F",
+            "rpa": 0.47
+          },
+          {
+            "name": "Ig mu chain C region",
+            "rpa": 0.43
+          },
+          {
+            "name": "Apolipoprotein B-100",
+            "rpa": 0.42
+          },
+          {
+            "name": "Keratin, type II cytoskeletal 1",
+            "rpa": 0.41
+          },
+          {
+            "name": "Vitamin K-dependent protein S",
+            "rpa": 0.37
+          },
+          {
+            "name": "Keratin, type I cytoskeletal 9",
+            "rpa": 0.34
+          },
+          {
+            "name": "Keratin, type I cytoskeletal 10",
+            "rpa": 0.3
+          },
+          {
+            "name": "Ig kappa chain V-III region HAH",
+            "rpa": 0.21
+          },
+          {
+            "name": "Ig alpha-1 chain C region",
+            "rpa": 0.2
+          }
+        ],
+        "zeta_potential": -2.1
+      }
+    ],
+    "mean_hydrodynamic_diameter": 90.8,
+    "pdi": null,
+    "protein_identification_method": "LC-MS-MS",
+    "type": "DOTAP:DOPE",
+    "zeta_potential": 51.2
+  },
+  {
+    "article": {
+      "article_doi": "10.1039/C4RA13335H",
+      "title": "Lipid composition: a 'key factor' for the rational manipulation of the liposome-protein corona by liposome design"
+    },
+    "coronas": [
+      {
+        "experiment_type": "in vivo",
+        "exposure_time": 60,
+        "mean_hydrodynamic_diameter": 187.4,
+        "protein_source": "Human Plasma",
+        "pdi": null,
+        "proteins": [
+          {
+            "name": "Serum albumin",
+            "rpa": 4.15
+          },
+          {
+            "name": "Complement C3",
+            "rpa": 3.15
+          },
+          {
+            "name": "Apolipoprotein A-I",
+            "rpa": 3.01
+          },
+          {
+            "name": "Vitronectin",
+            "rpa": 2.67
+          },
+          {
+            "name": "Fibrinogen beta chain",
+            "rpa": 2.65
+          },
+          {
+            "name": "Ig kappa chain C region",
+            "rpa": 2.45
+          },
+          {
+            "name": "Apolipoprotein E",
+            "rpa": 2.34
+          },
+          {
+            "name": "Apolipoprotein C-III",
+            "rpa": 2.13
+          },
+          {
+            "name": "Ig lambda-2 chain C regions",
+            "rpa": 1.97
+          },
+          {
+            "name": "Apolipoprotein A-II",
+            "rpa": 1.92
+          },
+          {
+            "name": "Fibrinogen gamma chain",
+            "rpa": 1.9
+          },
+          {
+            "name": "Apolipoprotein A-IV",
+            "rpa": 1.64
+          },
+          {
+            "name": "Ig gamma-1 chain C region",
+            "rpa": 1.62
+          },
+          {
+            "name": "Keratin, type II cytoskeletal 1",
+            "rpa": 1.54
+          },
+          {
+            "name": "Apolipoprotein C-I",
+            "rpa": 1.46
+          },
+          {
+            "name": "Fibrinogen alpha chain",
+            "rpa": 1.39
+          },
+          {
+            "name": "Ig gamma-2 chain C region",
+            "rpa": 1.33
+          },
+          {
+            "name": "Apolipoprotein B-100",
+            "rpa": 1.22
+          },
+          {
+            "name": "Apolipoprotein C-II",
+            "rpa": 1.19
+          },
+          {
+            "name": "Keratin, type II cytoskeletal 2 epidermal",
+            "rpa": 1.16
+          },
+          {
+            "name": "Keratin, type I cytoskeletal 10",
+            "rpa": 1.13
+          },
+          {
+            "name": "Complement C4-B",
+            "rpa": 0.98
+          },
+          {
+            "name": "Keratin, type I cytoskeletal 9",
+            "rpa": 0.96
+          },
+          {
+            "name": "Ig kappa chain V-III region HAH",
+            "rpa": 0.92
+          },
+          {
+            "name": "Apolipoprotein D",
+            "rpa": 0.91
+          },
+          {
+            "name": "Clusterin",
+            "rpa": 0.88
+          },
+          {
+            "name": "Prothrombin",
+            "rpa": 0.82
+          },
+          {
+            "name": "Ig mu chain C region",
+            "rpa": 0.73
+          },
+          {
+            "name": "Complement component C9",
+            "rpa": 0.6
+          },
+          {
+            "name": "Keratin, type II cytoskeletal 5",
+            "rpa": 0.57
+          },
+          {
+            "name": "Apolipoprotein L1",
+            "rpa": 0.55
+          },
+          {
+            "name": "Keratin, type I cytoskeletal 14",
+            "rpa": 0.51
+          },
+          {
+            "name": "Ig alpha-1 chain C region",
+            "rpa": 0.5
+          },
+          {
+            "name": "Ig kappa chain V-I region EU",
+            "rpa": 0.44
+          },
+          {
+            "name": "Complement C5",
+            "rpa": 0.42
+          },
+          {
+            "name": "Complement C1q subcomponent subunit B",
+            "rpa": 0.4
+          },
+          {
+            "name": "Apolipoprotein A-V",
+            "rpa": 0.38
+          },
+          {
+            "name": "Vitamin K-dependent protein Z",
+            "rpa": 0.35
+          },
+          {
+            "name": "Ig kappa chain V-IV region B17",
+            "rpa": 0.35
+          },
+          {
+            "name": "Keratin, type I cytoskeletal 16",
+            "rpa": 0.34
+          },
+          {
+            "name": "Apolipoprotein C-IV",
+            "rpa": 0.33
+          },
+          {
+            "name": "Apolipoprotein F",
+            "rpa": 0.33
+          },
+          {
+            "name": "Vitamin K-dependent protein S",
+            "rpa": 0.31
+          },
+          {
+            "name": "Ig heavy chain V-III region VH26",
+            "rpa": 0.31
+          },
+          {
+            "name": "Complement component C8 gamma chain",
+            "rpa": 0.31
+          },
+          {
+            "name": "Complement C1q subcomponent subunit C",
+            "rpa": 0.3
+          },
+          {
+            "name": "Complement factor B",
+            "rpa": 0.28
+          }
+        ],
+        "zeta_potential": -2.4
+      }
+    ],
+    "mean_hydrodynamic_diameter": 83.5,
+    "pdi": null,
+    "protein_identification_method": "LC-MS-MS",
+    "type": "DOTAP:Chol",
+    "zeta_potential": 50.5
+  },
+  {
+    "article": {
+      "article_doi": "10.1039/C4RA13335H",
+      "title": "Lipid composition: a 'key factor' for the rational manipulation of the liposome-protein corona by liposome design"
+    },
+    "coronas": [
+      {
+        "experiment_type": "in vivo",
+        "exposure_time": 60,
+        "mean_hydrodynamic_diameter": 220,
+        "protein_source": "Human Plasma",
+        "pdi": null,
+        "proteins": [
+          {
+            "name": "Complement C4-B",
+            "rpa": 5.48
+          },
+          {
+            "name": "Serum albumin",
+            "rpa": 4.66
+          },
+          {
+            "name": "Inter-alpha-trypsin inhibitor heavy chain H2",
+            "rpa": 4.49
+          },
+          {
+            "name": "Prothrombin",
+            "rpa": 4.13
+          },
+          {
+            "name": "Ig gamma-1 chain C region",
+            "rpa": 4.06
+          },
+          {
+            "name": "Fibrinogen beta chain",
+            "rpa": 3.99
+          },
+          {
+            "name": "Vitamin K-dependent protein S",
+            "rpa": 3.73
+          },
+          {
+            "name": "Ig kappa chain C region",
+            "rpa": 3.68
+          },
+          {
+            "name": "C4b-binding protein alpha chain",
+            "rpa": 3.24
+          },
+          {
+            "name": "Vitronectin",
+            "rpa": 2.94
+          },
+          {
+            "name": "Apolipoprotein A-I",
+            "rpa": 2.87
+          },
+          {
+            "name": "Inter-alpha-trypsin inhibitor heavy chain H1",
+            "rpa": 2.5
+          },
+          {
+            "name": "Ig gamma-3 chain C region",
+            "rpa": 2.46
+          },
+          {
+            "name": "Complement C3",
+            "rpa": 2.39
+          },
+          {
+            "name": "Inter-alpha-trypsin inhibitor heavy chain H3",
+            "rpa": 2.3
+          },
+          {
+            "name": "Fibrinogen gamma chain",
+            "rpa": 2.14
+          },
+          {
+            "name": "Protein AMBP",
+            "rpa": 1.84
+          },
+          {
+            "name": "Ig gamma-2 chain C region",
+            "rpa": 1.8
+          },
+          {
+            "name": "Fibrinogen alpha chain",
+            "rpa": 1.61
+          },
+          {
+            "name": "Ig lambda-2 chain C regions",
+            "rpa": 1.59
+          },
+          {
+            "name": "Vitamin K-dependent protein Z",
+            "rpa": 1.4
+          },
+          {
+            "name": "Protein Z-dependent protease inhibitor",
+            "rpa": 1.25
+          },
+          {
+            "name": "Apolipoprotein A-II",
+            "rpa": 1.01
+          },
+          {
+            "name": "Apolipoprotein E",
+            "rpa": 0.95
+          },
+          {
+            "name": "Vitamin K-dependent protein C",
+            "rpa": 0.93
+          },
+          {
+            "name": "Alpha-1-antitrypsin",
+            "rpa": 0.9
+          },
+          {
+            "name": "Keratin, type II cytoskeletal 1",
+            "rpa": 0.86
+          },
+          {
+            "name": "Apolipoprotein C-II",
+            "rpa": 0.85
+          },
+          {
+            "name": "Ig mu chain C region",
+            "rpa": 0.73
+          },
+          {
+            "name": "Complement C1q subcomponent subunit B",
+            "rpa": 0.4
+          },
+          {
+            "name": "Keratin, type II cytoskeletal 5",
+            "rpa": 0.57
+          },
+          {
+            "name": "Apolipoprotein L1",
+            "rpa": 0.55
+          },
+          {
+            "name": "Keratin, type I cytoskeletal 14",
+            "rpa": 0.51
+          },
+          {
+            "name": "Ig alpha-1 chain C region",
+            "rpa": 0.68
+          },
+          {
+            "name": "Ig kappa chain V-I region EU",
+            "rpa": 0.44
+          },
+          {
+            "name": "Complement C5",
+            "rpa": 0.42
+          },
+          {
+            "name": "Complement C1q subcomponent subunit C",
+            "rpa": 0.3
+          },
+          {
+            "name": "Complement factor B",
+            "rpa": 0.28
+          }
+        ],
+        "zeta_potential": -10.6
+      }
+    ],
+    "mean_hydrodynamic_diameter": 99.6,
+    "pdi": null,
+    "protein_identification_method": "LC-MS-MS",
+    "type": "DC-Chol",
+    "zeta_potential": 59.2
+  },
+  {
+    "article": {
+      "article_doi": "10.1039/C4RA13335H",
+      "title": "Lipid composition: a 'key factor' for the rational manipulation of the liposome-protein corona by liposome design"
+    },
+    "coronas": [
+      {
+        "experiment_type": "in vivo",
+        "exposure_time": 60,
+        "mean_hydrodynamic_diameter": 250,
+        "protein_source": "Human Plasma",
+        "pdi": null,
+        "proteins": [
+          {
+            "name": "Serum albumin",
+            "rpa": 5.55
+          },
+          {
+            "name": "Apolipoprotein A-I",
+            "rpa": 4.09
+          },
+          {
+            "name": "Apolipoprotein C-III",
+            "rpa": 3.1
+          },
+          {
+            "name": "Apolipoprotein A-II",
+            "rpa": 2.97
+          },
+          {
+            "name": "Apolipoprotein C-II",
+            "rpa": 2.85
+          },
+          {
+            "name": "Hemoglobin subunit beta",
+            "rpa": 2.81
+          },
+          {
+            "name": "Apolipoprotein D",
+            "rpa": 2.73
+          },
+          {
+            "name": "Apolipoprotein C-I",
+            "rpa": 2.73
+          },
+          {
+            "name": "Apolipoprotein E",
+            "rpa": 2.69
+          },
+          {
+            "name": "Keratin, type II cytoskeletal 1",
+            "rpa": 2.56
+          },
+          {
+            "name": "Actin, cytoplasmic 1",
+            "rpa": 2.5
+          },
+          {
+            "name": "Ig kappa chain C region",
+            "rpa": 2.38
+          },
+          {
+            "name": "Complement C3",
+            "rpa": 2.3
+          },
+          {
+            "name": "Ig lambda-2 chain C regions",
+            "rpa": 2.23
+          },
+          {
+            "name": "Keratin, type I cytoskeletal 10",
+            "rpa": 2.08
+          },
+          {
+            "name": "Fibrinogen gamma chain",
+            "rpa": 1.94
+          },
+          {
+            "name": "Ig gamma-1 chain C region",
+            "rpa": 1.85
+          },
+          {
+            "name": "Vitronectin",
+            "rpa": 1.79
+          },
+          {
+            "name": "Hemoglobin subunit alpha",
+            "rpa": 1.73
+          },
+          {
+            "name": "Keratin, type I cytoskeletal 9",
+            "rpa": 1.69
+          },
+          {
+            "name": "Apolipoprotein B-100",
+            "rpa": 1.61
+          },
+          {
+            "name": "Keratin, type II cytoskeletal 2 epidermal",
+            "rpa": 1.59
+          },
+          {
+            "name": "Fibrinogen beta chain",
+            "rpa": 1.58
+          },
+          {
+            "name": "Alpha-1-antitrypsin",
+            "rpa": 1.33
+          },
+          {
+            "name": "Apolipoprotein A-IV",
+            "rpa": 1.24
+          },
+          {
+            "name": "Clusterin",
+            "rpa": 1.18
+          },
+          {
+            "name": "Myosin light polypeptide 6",
+            "rpa": 1.12
+          },
+          {
+            "name": "Fibrinogen alpha chain",
+            "rpa": 1.12
+          },
+          {
+            "name": "Serum amyloid A protein",
+            "rpa": 1.07
+          },
+          {
+            "name": "Myosin-9",
+            "rpa": 1.04
+          },
+          {
+            "name": "Actin, alpha cardiac muscle 1",
+            "rpa": 1.04
+          },
+          {
+            "name": "C4b-binding protein alpha chain",
+            "rpa": 1.02
+          },
+          {
+            "name": "Serotransferrin",
+            "rpa": 0.97
+          },
+          {
+            "name": "Cofilin-1",
+            "rpa": 0.86
+          },
+          {
+            "name": "Peptidyl-prolyl cis-trans isomerase A",
+            "rpa": 0.83
+          },
+          {
+            "name": "Ig gamma-2 chain C region",
+            "rpa": 0.76
+          },
+          {
+            "name": "Ig mu chain C region",
+            "rpa": 0.72
+          },
+          {
+            "name": "Inter-alpha-trypsin inhibitor heavy chain H2",
+            "rpa": 0.72
+          },
+          {
+            "name": "Inter-alpha-trypsin inhibitor heavy chain H1",
+            "rpa": 0.69
+          },
+          {
+            "name": "Myosin regulatory light chain 12A",
+            "rpa": 0.68
+          },
+          {
+            "name": "Prothrombin",
+            "rpa": 0.68
+          },
+          {
+            "name": "Keratin, type I cytoskeletal 16",
+            "rpa": 0.64
+          },
+          {
+            "name": "Talin-1",
+            "rpa": 0.62
+          },
+          {
+            "name": "Complement component C9",
+            "rpa": 0.61
+          },
+          {
+            "name": "Erythrocyte band 7 integral membrane protein",
+            "rpa": 0.6
+          },
+          {
+            "name": "Alpha-2-macroglobulin",
+            "rpa": 0.59
+          },
+          {
+            "name": "Ig kappa chain V-III region HAH",
+            "rpa": 0.58
+          },
+          {
+            "name": "Ras-related protein Rap-1b",
+            "rpa": 0.58
+          },
+          {
+            "name": "Complement C4-B",
+            "rpa": 0.56
+          },
+          {
+            "name": "Complement component C8 gamma chain",
+            "rpa": 0.56
+          },
+          {
+            "name": "Transgelin-2",
+            "rpa": 0.56
+          },
+          {
+            "name": "Profilin-1",
+            "rpa": 0.55
+          },
+          {
+            "name": "Integrin alpha-IIb",
+            "rpa": 0.54
+          },
+          {
+            "name": "Tropomyosin alpha-4 chain",
+            "rpa": 0.52
+          },
+          {
+            "name": "Keratin, type II cytoskeletal 5",
+            "rpa": 0.51
+          }
+        ],
+        "zeta_potential": -11.4
+      }
+    ],
+    "mean_hydrodynamic_diameter": 119.2,
+    "pdi": null,
+    "protein_identification_method": "LC-MS-MS",
+    "type": "DC-Chol:DOPE",
+    "zeta_potential": 56.3
+  },
+  {
+    "article": {
+      "article_doi": "10.1039/C4RA13335H",
+      "title": "Lipid composition: a 'key factor' for the rational manipulation of the liposome-protein corona by liposome design"
+    },
+    "coronas": [
+      {
+        "experiment_type": "in vivo",
+        "exposure_time": 60,
+        "mean_hydrodynamic_diameter": 210,
+        "protein_source": "Human Plasma",
+        "pdi": null,
+        "proteins": [
+          {
+            "name": "Complement C4-B",
+            "rpa": 3.58
+          },
+          {
+            "name": "Serum albumin",
+            "rpa": 3.05
+          },
+          {
+            "name": "Inter-alpha-trypsin inhibitor heavy chain H2",
+            "rpa": 2.94
+          },
+          {
+            "name": "Prothrombin",
+            "rpa": 2.7
+          },
+          {
+            "name": "Ig gamma-1 chain C region",
+            "rpa": 2.65
+          },
+          {
+            "name": "Fibrinogen beta chain",
+            "rpa": 2.61
+          },
+          {
+            "name": "Vitamin K-dependent protein S",
+            "rpa": 2.44
+          },
+          {
+            "name": "Ig kappa chain C region",
+            "rpa": 2.41
+          },
+          {
+            "name": "C4b-binding protein alpha chain",
+            "rpa": 2.12
+          },
+          {
+            "name": "Vitronectin",
+            "rpa": 1.92
+          },
+          {
+            "name": "Apolipoprotein A-I",
+            "rpa": 1.87
+          },
+          {
+            "name": "Inter-alpha-trypsin inhibitor heavy chain H1",
+            "rpa": 1.63
+          },
+          {
+            "name": "Ig gamma-3 chain C region",
+            "rpa": 1.61
+          },
+          {
+            "name": "Complement C3",
+            "rpa": 1.56
+          },
+          {
+            "name": "Inter-alpha-trypsin inhibitor heavy chain H3",
+            "rpa": 1.51
+          },
+          {
+            "name": "Fibrinogen gamma chain",
+            "rpa": 1.4
+          },
+          {
+            "name": "Protein AMBP",
+            "rpa": 1.2
+          },
+          {
+            "name": "Ig gamma-2 chain C region",
+            "rpa": 1.18
+          },
+          {
+            "name": "Fibrinogen alpha chain",
+            "rpa": 1.05
+          },
+          {
+            "name": "Ig lambda-2 chain C regions",
+            "rpa": 1.04
+          },
+          {
+            "name": "Vitamin K-dependent protein Z",
+            "rpa": 0.92
+          },
+          {
+            "name": "Protein Z-dependent protease inhibitor",
+            "rpa": 0.82
+          },
+          {
+            "name": "Apolipoprotein A-II",
+            "rpa": 0.66
+          },
+          {
+            "name": "Apolipoprotein E",
+            "rpa": 0.62
+          },
+          {
+            "name": "Vitamin K-dependent protein C",
+            "rpa": 0.61
+          },
+          {
+            "name": "Alpha-1-antitrypsin",
+            "rpa": 0.59
+          },
+          {
+            "name": "Keratin, type II cytoskeletal 1",
+            "rpa": 0.56
+          },
+          {
+            "name": "Apolipoprotein C-II",
+            "rpa": 0.56
+          },
+          {
+            "name": "Ig mu chain C region",
+            "rpa": 0.55
+          },
+          {
+            "name": "Coagulation factor IX",
+            "rpa": 0.54
+          },
+          {
+            "name": "Apolipoprotein B-100",
+            "rpa": 0.53
+          },
+          {
+            "name": "C-reactive protein",
+            "rpa": 0.52
+          },
+          {
+            "name": "Apolipoprotein C-III",
+            "rpa": 0.51
+          },
+          {
+            "name": "Collectin-11",
+            "rpa": 0.49
+          },
+          {
+            "name": "Clusterin",
+            "rpa": 0.48
+          },
+          {
+            "name": "Hyaluronan-binding protein 2",
+            "rpa": 0.48
+          },
+          {
+            "name": "Ig alpha-1 chain C region",
+            "rpa": 0.44
+          },
+          {
+            "name": "Hemoglobin subunit beta",
+            "rpa": 0.43
+          },
+          {
+            "name": "Coagulation factor X",
+            "rpa": 0.4
+          },
+          {
+            "name": "Apolipoprotein A-IV",
+            "rpa": 0.4
+          },
+          {
+            "name": "Keratin, type I cytoskeletal 10",
+            "rpa": 0.38
+          },
+          {
+            "name": "Serum paraoxonase/arylesterase 1",
+            "rpa": 0.38
+          },
+          {
+            "name": "Lumican",
+            "rpa": 0.37
+          },
+          {
+            "name": "Serotransferrin",
+            "rpa": 0.36
+          }
+        ],
+        "zeta_potential": -11.2
+      }
+    ],
+    "mean_hydrodynamic_diameter": 85.6,
+    "pdi": null,
+    "protein_identification_method": "LC-MS-MS",
+    "type": "DC-Chol:Chol",
+    "zeta_potential": 55.6
+  },
+  {
+    "article": {
+      "article_doi": "10.1021/am404171h",
+      "title": "Selective Targeting Capability Acquired with a Protein Corona Adsorbed on the Surface of 1,2-Dioleoyl-3-trimethylammonium Propane/DNA Nanoparticles"
+    },
+    "coronas": [
+      {
+        "experiment_type": "in vitro",
+        "exposure_time": 60,
+        "mean_hydrodynamic_diameter": 287.7,
+        "pdi": null,
+        "protein_source": "Human Plasma",
+        "proteins": [
+          {
+            "name": "Vitronectin",
+            "rpa": 31.3
+          },
+          {
+            "name": "Serum albumin",
+            "rpa": 17.3
+          },
+          {
+            "name": "Apolipoprotein A-II",
+            "rpa": 9.4
+          },
+          {
+            "name": "Complement C3",
+            "rpa": 7.5
+          },
+          {
+            "name": "Apolipoprotein C-III",
+            "rpa": 7
+          },
+          {
+            "name": "Apolipoprotein C-II",
+            "rpa": 6.6
+          },
+          {
+            "name": "Hyaluronan-binding protein 2",
+            "rpa": 4.7
+          },
+          {
+            "name": "Fibrinogen beta chain",
+            "rpa": 3.8
+          },
+          {
+            "name": "Clusterin",
+            "rpa": 3.1
+          },
+          {
+            "name": "Apolipoprotein B-100",
+            "rpa": 2.9
+          },
+          {
+            "name": "Fibrinogen gamma chain",
+            "rpa": 3.1
+          },
+          {
+            "name": "Serum paraoxonase/arylesterase",
+            "rpa": 1.2
+          },
+          {
+            "name": "Interalpha-trypsin inhibitor heavy chain H1",
+            "rpa": 0.6
+          },
+          {
+            "name": "Protein AMBP",
+            "rpa": 0.6
+          },
+          {
+            "name": "C4b-binding protein alpha chain",
+            "rpa": 0.4
+          },
+          {
+            "name": "Prothrombin",
+            "rpa": 0.3
+          },
+          {
+            "name": "Vitamin K-dependent protein S",
+            "rpa": 0.2
+          }
+        ],
+        "zeta_potential": -7.6
+      }
+    ],
+    "mean_hydrodynamic_diameter": 223.5,
+    "pdi": null,
+    "protein_identification_method": "LC-MS-MS",
+    "type": "DOTAP:DNA",
+    "zeta_potential": 49.5
+  },
+  {
+    "article": {
+      "article_doi": "10.1039/C8NR09855G",
+      "title": "The role of surface chemistry in serum protein corona-mediated cellular delivery and gene silencing with lipid nanoparticles"
+    },
+    "coronas": [
+      {
+        "experiment_type": "in vitro",
+        "exposure_time": null,
+        "mean_hydrodynamic_diameter": null,
+        "pdi": null,
+        "protein_source": "HepG2/FBS",
+        "proteins": [
+          {
+            "name": "Apolipoprotein A-II",
+            "rpa": 38.03
+          },
+          {
+            "name": "Alpha-1-antiproteinase",
+            "rpa": 19.43
+          },
+          {
+            "name": "Serum albumin",
+            "rpa": 13.22
+          },
+          {
+            "name": "Hemoglobin fetal subunit beta",
+            "rpa": 9.7
+          },
+          {
+            "name": "Apolipoprotein A-I",
+            "rpa": 7.14
+          },
+          {
+            "name": "Hemoglobin subunit alpha",
+            "rpa": 4.25
+          },
+          {
+            "name": "Inter-alpha-trypsin inhibitor heavy chain H2",
+            "rpa": 2.03
+          },
+          {
+            "name": "Clusterin",
+            "rpa": 1.52
+          },
+          {
+            "name": "Alpha-2- macroglobulin",
+            "rpa": 1.16
+          },
+          {
+            "name": "Uncharacterized protein 1",
+            "rpa": 1.04
+          },
+          {
+            "name": "Lumican",
+            "rpa": 0.66
+          },
+          {
+            "name": "Vitronectin",
+            "rpa": 0.48
+          },
+          {
+            "name": "Uncharacterized protein 2",
+            "rpa": 0.23
+          },
+          {
+            "name": "Apolipoprotein C-III",
+            "rpa": 0.19
+          },
+          {
+            "name": "Alpha-2-HSglycoprotein",
+            "rpa": 0.13
+          }
+        ],
+        "zeta_potential": null
+      }
+    ],
+    "mean_hydrodynamic_diameter": 88,
+    "pdi": 0.06,
+    "protein_identification_method": "LC-MS-MS",
+    "type": "DL:Chol:DSPE-PEG2000(C18-C18)",
+    "zeta_potential": -1.8
+  },
+  {
+    "article": {
+      "article_doi": "10.1039/C8NR09855G",
+      "title": "The role of surface chemistry in serum protein corona-mediated cellular delivery and gene silencing with lipid nanoparticles"
+    },
+    "coronas": [
+      {
+        "experiment_type": "in vitro",
+        "exposure_time": null,
+        "mean_hydrodynamic_diameter": null,
+        "pdi": null,
+        "protein_source": "HepG2/FBS",
+        "proteins": [
+          {
+            "name": "Apolipoprotein A-I",
+            "rpa": 43.31
+          },
+          {
+            "name": "Hemoglobin subunit alpha",
+            "rpa": 13.63
+          },
+          {
+            "name": "Apolipoprotein A-II",
+            "rpa": 13.35
+          },
+          {
+            "name": "Hemoglobin fetal subunit beta",
+            "rpa": 11.25
+          },
+          {
+            "name": "Alpha-1-antiproteinase",
+            "rpa": 9.38
+          },
+          {
+            "name": "Serum albumin",
+            "rpa": 6.36
+          },
+          {
+            "name": "Clusterin",
+            "rpa": 0.5
+          },
+          {
+            "name": "Uncharacterized protein",
+            "rpa": 0.44
+          },
+          {
+            "name": "Inter-alpha-trypsin inhibitor heavy chain H2",
+            "rpa": 0.36
+          },
+          {
+            "name": "Apolipoprotein C-III",
+            "rpa": 0.33
+          },
+          {
+            "name": "Apolipoprotein E",
+            "rpa": 0.24
+          },
+          {
+            "name": "Apolipoprotein A-IV",
+            "rpa": 0.13
+          },
+          {
+            "name": "Prothrombin",
+            "rpa": 0.11
+          }
+        ],
+        "zeta_potential": null
+      }
+    ],
+    "mean_hydrodynamic_diameter": 89.5,
+    "pdi": 0.1,
+    "protein_identification_method": "LC-MS-MS",
+    "type": "DL:Chol:DSPE-PEG2000(C18-0)",
+    "zeta_potential": -1
+  },
+  {
+    "article": {
+      "article_doi": "10.1039/C8NR09855G",
+      "title": "The role of surface chemistry in serum protein corona-mediated cellular delivery and gene silencing with lipid nanoparticles"
+    },
+    "coronas": [
+      {
+        "experiment_type": "in vitro",
+        "exposure_time": null,
+        "mean_hydrodynamic_diameter": null,
+        "pdi": null,
+        "protein_source": "HepG2/FBS",
+        "proteins": [
+          {
+            "name": "Serum albumin",
+            "rpa": 30.21
+          },
+          {
+            "name": "Alpha-1-antiproteinase",
+            "rpa": 17.15
+          },
+          {
+            "name": "Hemoglobin fetal subunit beta",
+            "rpa": 15.92
+          },
+          {
+            "name": "Hemoglobin subunit alpha",
+            "rpa": 12.27
+          },
+          {
+            "name": "Apolipoprotein A-II",
+            "rpa": 10.41
+          },
+          {
+            "name": "Uncharacterized protein",
+            "rpa": 3.93
+          },
+          {
+            "name": "Inter-alpha-trypsin inhibitor heavy chain H2",
+            "rpa": 3.85
+          },
+          {
+            "name": "Apolipoprotein A-I",
+            "rpa": 1.17
+          },
+          {
+            "name": "Alpha-2-HSglycoprotein",
+            "rpa": 1.07
+          },
+          {
+            "name": "Ig gamma-1 chain C region",
+            "rpa": 0.55
+          },
+          {
+            "name": "Apolipoprotein C-III",
+            "rpa": 0.46
+          },
+          {
+            "name": "Complement C3",
+            "rpa": 0.34
+          },
+          {
+            "name": "Apolipoprotein E",
+            "rpa": 0.3
+          },
+          {
+            "name": "Lumican",
+            "rpa": 0.22
+          },
+          {
+            "name": "Transthyretin",
+            "rpa": 0.22
+          },
+          {
+            "name": "Clusterin",
+            "rpa": 0.2
+          },
+          {
+            "name": "Angiotensinogen",
+            "rpa": 0.18
+          },
+          {
+            "name": "Alpha-2-macroglobulin",
+            "rpa": 0.15
+          },
+          {
+            "name": "Coagulation factor V",
+            "rpa": 0.13
+          },
+          {
+            "name": "Profilin-1",
+            "rpa": 0.11
+          }
+        ],
+        "zeta_potential": null
+      }
+    ],
+    "mean_hydrodynamic_diameter": 91.3,
+    "pdi": 0.06,
+    "protein_identification_method": "LC-MS-MS",
+    "type": "DL:Chol:DMPE-PEG2000(C14-C14)",
+    "zeta_potential": -1.3
+  },
+  {
+    "article": {
+      "article_doi": "10.1039/C8NR09855G",
+      "title": "The role of surface chemistry in serum protein corona-mediated cellular delivery and gene silencing with lipid nanoparticles"
+    },
+    "coronas": [
+      {
+        "experiment_type": "in vitro",
+        "exposure_time": null,
+        "mean_hydrodynamic_diameter": null,
+        "pdi": null,
+        "protein_source": "HepG2/FBS",
+        "proteins": [
+          {
+            "name": "Apolipoprotein A-I",
+            "rpa": 24.01
+          },
+          {
+            "name": "Hemoglobin subunit alpha",
+            "rpa": 20.1
+          },
+          {
+            "name": "Apolipoprotein A-II ",
+            "rpa": 18.64
+          },
+          {
+            "name": "Hemoglobin fetal subunit beta",
+            "rpa": 14.76
+          },
+          {
+            "name": "Alpha-1- antiproteinase",
+            "rpa": 9.81
+          },
+          {
+            "name": "Serum albumin",
+            "rpa": 8.71
+          },
+          {
+            "name": "Inter-alpha-trypsin inhibitor heavy chain H2",
+            "rpa": 0.73
+          },
+          {
+            "name": "Apolipoprotein C-III ",
+            "rpa": 0.64
+          },
+          {
+            "name": "Clusterin",
+            "rpa": 0.47
+          },
+          {
+            "name": "Apolipoprotein E ",
+            "rpa": 0.41
+          },
+          {
+            "name": "Uncharacterized protein",
+            "rpa": 0.38
+          },
+          {
+            "name": "Prothrombin",
+            "rpa": 0.22
+          },
+          {
+            "name": "Alpha-2-macroglobulin",
+            "rpa": 0.13
+          },
+          {
+            "name": "Complement C3 ",
+            "rpa": 0.13
+          },
+          {
+            "name": "Alpha-2-HS-glycoprotein",
+            "rpa": 0.13
+          },
+          {
+            "name": "Apolipoprotein A-IV",
+            "rpa": 0.12
+          }
+        ],
+        "zeta_potential": null
+      }
+    ],
+    "mean_hydrodynamic_diameter": 91.8,
+    "pdi": 0.08,
+    "protein_identification_method": "LC-MS-MS",
+    "type": "DL:Chol:DMPE-PEG2000(C14-0)",
+    "zeta_potential": -0.3
+  },
+  {
+    "article": {
+      "article_doi": "10.1016/j.bbamem.2015.11.012",
+      "title": "The protein corona of circulating PEGylated liposomes"
+    },
+    "coronas": [
+      {
+        "experiment_type": "in vitro",
+        "exposure_time": 90,
+        "mean_hydrodynamic_diameter": 190,
+        "pdi": null,
+        "protein_source": "FBS",
+        "proteins": [
+          {
+            "name": "Alpha-2-HS-glycoprotein",
+            "rpa": 19.2
+          },
+          {
+            "name": "Serum albumin",
+            "rpa": 16.1
+          },
+          {
+            "name": "Apolipoprotein A-II",
+            "rpa": 10.7
+          },
+          {
+            "name": "Hemoglobin fetal subunit beta",
+            "rpa": 6.3
+          },
+          {
+            "name": "Alpha-1-antiproteinase",
+            "rpa": 5.8
+          },
+          {
+            "name": "Hemoglobin subunit alpha",
+            "rpa": 4.9
+          },
+          {
+            "name": "Apolipoprotein A-I",
+            "rpa": 3.6
+          },
+          {
+            "name": "Serotransferrin",
+            "rpa": 3.4
+          },
+          {
+            "name": "Apolipoprotein C-III",
+            "rpa": 2.08
+          },
+          {
+            "name": "Alpha-2-macroglobulin",
+            "rpa": 1.7
+          },
+          {
+            "name": "Vitamin D-binding protein",
+            "rpa": 1.5
+          },
+          {
+            "name": "Alpha-fetoprotein",
+            "rpa": 1.5
+          },
+          {
+            "name": "Alpha-1-acid glycoprotein",
+            "rpa": 1.4
+          },
+          {
+            "name": "Apolipoprotein E",
+            "rpa": 1.1
+          },
+          {
+            "name": "Fetuin-B",
+            "rpa": 0.95
+          },
+          {
+            "name": "Metallothionein-1A",
+            "rpa": 0.83
+          },
+          {
+            "name": "Complement C3",
+            "rpa": 0.69
+          },
+          {
+            "name": "Alpha-1B-glycoprotein",
+            "rpa": 0.66
+          },
+          {
+            "name": "Serpin A3-1",
+            "rpa": 0.65
+          },
+          {
+            "name": "Antithrombin-III",
+            "rpa": 0.64
+          },
+          {
+            "name": "Alpha-2-antiplasmin",
+            "rpa": 0.61
+          },
+          {
+            "name": "Inter-alpha-trypsin inhibitor heavy chain H4",
+            "rpa": 0.6
+          },
+          {
+            "name": "Transthyretin",
+            "rpa": 0.59
+          },
+          {
+            "name": "Clusterin",
+            "rpa": 0.55
+          },
+          {
+            "name": "Hemopexin",
+            "rpa": 0.54
+          }
+        ],
+        "zeta_potential": -23
+      },
+      {
+        "experiment_type": "in vitro",
+        "exposure_time": 90,
+        "mean_hydrodynamic_diameter": 196,
+        "pdi": null,
+        "protein_source": "FBS",
+        "proteins": [
+          {
+            "name": "Serum albumin",
+            "rpa": 13.7
+          },
+          {
+            "name": "Alpha-2-HS-glycoprotein",
+            "rpa": 12.2
+          },
+          {
+            "name": "Apolipoprotein A-II",
+            "rpa": 9.2
+          },
+          {
+            "name": "Hemoglobin fetal subunit beta",
+            "rpa": 7.3
+          },
+          {
+            "name": "Alpha-1-antiproteinase",
+            "rpa": 5.9
+          },
+          {
+            "name": "Apolipoprotein A-I",
+            "rpa": 3.7
+          },
+          {
+            "name": "Hemoglobin subunit alpha",
+            "rpa": 3.4
+          },
+          {
+            "name": "Serotransferrin",
+            "rpa": 1.9
+          },
+          {
+            "name": "Alpha-2-macroglobulin",
+            "rpa": 1.6
+          },
+          {
+            "name": "Apolipoprotein E",
+            "rpa": 1.5
+          },
+          {
+            "name": "Apolipoprotein C-III",
+            "rpa": 1.4
+          },
+          {
+            "name": "Alpha-fetoprotein",
+            "rpa": 1.2
+          },
+          {
+            "name": "Alpha-1-acid glycoprotein",
+            "rpa": 1.1
+          },
+          {
+            "name": "Inter-alpha-trypsin inhibitor heavy chain H4",
+            "rpa": 1.1
+          },
+          {
+            "name": "Kininogen-1",
+            "rpa": 1.03
+          },
+          {
+            "name": "Vitamin D-binding protein",
+            "rpa": 1.0
+          },
+          {
+            "name": "Prothrombin",
+            "rpa": 0.98
+          },
+          {
+            "name": "Complement C3",
+            "rpa": 0.96
+          },
+          {
+            "name": "Antithrombin-III",
+            "rpa": 0.89
+          },
+          {
+            "name": "Hemoglobin subunit beta",
+            "rpa": 0.88
+          },
+          {
+            "name": "Glyceraldehyde-3-phosphate dehydrogenase",
+            "rpa": 0.86
+          },
+          {
+            "name": "Kininogen-2",
+            "rpa": 0.8
+          },
+          {
+            "name": "Metallothionein-1A",
+            "rpa": 0.78
+          },
+          {
+            "name": "Actin cytoplasmic 2",
+            "rpa": 0.73
+          },
+          {
+            "name": "Keratin type II cytoskeletal 5",
+            "rpa": 0.68
+          }
+        ],
+        "zeta_potential": -28
+      }
+    ],
+    "mean_hydrodynamic_diameter": 143,
+    "pdi": null,
+    "protein_identification_method": "LC-MS-MS",
+    "type": "DOTAP:DOPC:DC-Chol:DOPE:DOPE-PEG2000 ",
+    "zeta_potential": 19
+  },
+  {
+    "article": {
+      "article_doi": "10.1002/adma.201803335",
+      "title": "The Human In Vivo Biomolecule Corona onto PEGylated Liposomes: A Proof-of-Concept Clinical Study"
+    },
+    "coronas": [
+      {
+        "experiment_type": "in vivo",
+        "exposure_time": 90,
+        "mean_hydrodynamic_diameter": null,
+        "pdi": null,
+        "protein_source": "Human Plasma",
+        "proteins": [
+          {
+            "name": "Full-length cDNA clone CSODD006YL02 of Human Plasma (human)",
+            "rpa": 7.99
+          },
+          {
+            "name": "Ig mu chain C region (A0A087X2C0)",
+            "rpa": 5.7
+          },
+          {
+            "name": "Ig mu chain C region (A0A087WYJ9)",
+            "rpa": 4.56
+          },
+          {
+            "name": "Alpha-2-macroglobulin",
+            "rpa": 3.48
+          },
+          {
+            "name": "Fibrinogen beta chain",
+            "rpa": 3.45
+          },
+          {
+            "name": "Fibrinogen alpha chain",
+            "rpa": 2.98
+          },
+          {
+            "name": "Apolipoprotein B (Including Ag(X) antigen)",
+            "rpa": 2.64
+          },
+          {
+            "name": "Serum albumin",
+            "rpa": 2.47
+          },
+          {
+            "name": "APOB protein",
+            "rpa": 2.22
+          },
+          {
+            "name": "Protein IGHV3-72",
+            "rpa": 1.91
+          },
+          {
+            "name": "C4b-binding protein alpha chain",
+            "rpa": 1.74
+          },
+          {
+            "name": "Fibrinogen gamma chain",
+            "rpa": 1.59
+          },
+          {
+            "name": "Haptoglobin (Fragment)",
+            "rpa": 1.35
+          },
+          {
+            "name": "Haptoglobin",
+            "rpa": 1.35
+          },
+          {
+            "name": "IGH protein",
+            "rpa": 1.14
+          },
+          {
+            "name": "Ig gamma-1 chain C region",
+            "rpa": 1.12
+          },
+          {
+            "name": "Uncharacterized protein (A8K008)",
+            "rpa": 1.11
+          },
+          {
+            "name": "Uncharacterized protein (Q6N089)",
+            "rpa": 1.05
+          },
+          {
+            "name": "IgG H chain",
+            "rpa": 1.04
+          },
+          {
+            "name": "Actin cytoplasmic 2",
+            "rpa": 1.04
+          }
+        ],
+        "zeta_potential": null
+      }
+    ],
+    "mean_hydrodynamic_diameter": 82.63,
+    "pdi": 0.087,
+    "protein_identification_method": "LC-MS-MS",
+    "type": "HSPC:Chol:DSPE-mPEG2000",
+    "zeta_potential": -33.8
+  },
+  {
+    "article": {
+      "article_doi": "10.1039/c3nr05559k",
+      "title": "Effect of polyethyleneglycol (PEG) chain length on the bio-nano-interactions between PEGylated lipid nanoparticles and biological fluids: from nanostructure to uptake in cancer cells"
+    },
+    "coronas": [
+      {
+        "experiment_type": "in vitro",
+        "exposure_time": 60,
+        "mean_hydrodynamic_diameter": 104,
+        "pdi": null,
+        "protein_source": "Human Plasma",
+        "proteins": [
+          {
+            "name": "Apolipoprotein C-II",
+            "rpa": 2.606
+          },
+          {
+            "name": "Apolipoprotein E",
+            "rpa": 2.565
+          },
+          {
+            "name": "Apolipoprotein A-I",
+            "rpa": 2.534
+          },
+          {
+            "name": "Apolipoprotein C-III",
+            "rpa": 2.22
+          },
+          {
+            "name": "Apolipoprotein A-IV",
+            "rpa": 2.029
+          },
+          {
+            "name": "Complement C3",
+            "rpa": 1.686
+          },
+          {
+            "name": "Apolipoprotein C-I",
+            "rpa": 1.651
+          },
+          {
+            "name": "Keratin, type II cytoskeletal 1",
+            "rpa": 1.625
+          },
+          {
+            "name": "Apolipoprotein A-II",
+            "rpa": 1.544
+          },
+          {
+            "name": "Tropomyosin alpha-4 chain",
+            "rpa": 1.537
+          },
+          {
+            "name": "Fibrinogen beta chain",
+            "rpa": 1.535
+          },
+          {
+            "name": "Prothrombin",
+            "rpa": 1.471
+          },
+          {
+            "name": "Complement C4-B",
+            "rpa": 1.403
+          },
+          {
+            "name": "Ig kappa chain C region",
+            "rpa": 1.327
+          },
+          {
+            "name": "Hemoglobin subunit beta",
+            "rpa": 1.327
+          },
+          {
+            "name": "Serum albumin",
+            "rpa": 1.308
+          },
+          {
+            "name": "Ig kappa chain V-III region HAH",
+            "rpa": 1.289
+          },
+          {
+            "name": "Inter-alpha-trypsin inhibitor heavy chain H2",
+            "rpa": 1.282
+          },
+          {
+            "name": "Transthyretin",
+            "rpa": 1.261
+          },
+          {
+            "name": "Ig lambda-2 chain C regions",
+            "rpa": 1.255
+          },
+          {
+            "name": "Clusterin",
+            "rpa": 1.245
+          },
+          {
+            "name": "Vitronectin",
+            "rpa": 1.238
+          },
+          {
+            "name": "Fibrinogen gamma chain",
+            "rpa": 1.225
+          },
+          {
+            "name": "Keratin, type I cytoskeletal 9",
+            "rpa": 1.181
+          },
+          {
+            "name": "Fibrinogen alpha chain",
+            "rpa": 1.173
+          },
+          {
+            "name": "Serum paraoxonase/arylesterase 1",
+            "rpa": 1.115
+          },
+          {
+            "name": "Alpha-1-antitrypsin",
+            "rpa": 1.107
+          },
+          {
+            "name": "Keratin, type I cytoskeletal 10",
+            "rpa": 1.062
+          },
+          {
+            "name": "Thymosin beta-4",
+            "rpa": 1.062
+          },
+          {
+            "name": "Inter-alpha-trypsin inhibitor heavy chain H1",
+            "rpa": 1.062
+          },
+          {
+            "name": "Ig mu chain C region",
+            "rpa": 1.062
+          },
+          {
+            "name": "Protein Z-dependent protease inhibitor",
+            "rpa": 1.041
+          },
+          {
+            "name": "Apolipoprotein D",
+            "rpa": 1.011
+          }
+        ],
+        "zeta_potential": -16
+      }
+    ],
+    "mean_hydrodynamic_diameter": 86,
+    "pdi": null,
+    "protein_identification_method": "LC-MS-MS",
+    "type": "DOTAP:DC-Chol:DOPC:DOPE",
+    "zeta_potential": 27.4
+  },
+  {
+    "article": {
+      "article_doi": "10.1039/c3nr05559k",
+      "title": "Effect of polyethyleneglycol (PEG) chain length on the bio-nano-interactions between PEGylated lipid nanoparticles and biological fluids: from nanostructure to uptake in cancer cells"
+    },
+    "coronas": [
+      {
+        "experiment_type": "in vitro",
+        "exposure_time": 60,
+        "mean_hydrodynamic_diameter": 136,
+        "pdi": null,
+        "protein_source": "Human Plasma",
+        "proteins": [
+          {
+            "name": "Apolipoprotein A-I",
+            "rpa": 2.469
+          },
+          {
+            "name": "Apolipoprotein C-III",
+            "rpa": 2.242
+          },
+          {
+            "name": "Apolipoprotein C-II",
+            "rpa": 2.242
+          },
+          {
+            "name": "Apolipoprotein A-IV",
+            "rpa": 1.89
+          },
+          {
+            "name": "Apolipoprotein E",
+            "rpa": 1.866
+          },
+          {
+            "name": "Keratin, type II cytoskeletal 1",
+            "rpa": 1.714
+          },
+          {
+            "name": "Complement C3",
+            "rpa": 1.687
+          },
+          {
+            "name": "Ig kappa chain C region",
+            "rpa": 1.559
+          },
+          {
+            "name": "Hemoglobin subunit beta",
+            "rpa": 1.541
+          },
+          {
+            "name": "Apolipoprotein C-I",
+            "rpa": 1.417
+          },
+          {
+            "name": "Apolipoprotein A-II",
+            "rpa": 1.391
+          },
+          {
+            "name": "Keratin, type I cytoskeletal 10",
+            "rpa": 1.312
+          },
+          {
+            "name": "Keratin, type II cytoskeletal 2 epidermal",
+            "rpa": 1.295
+          },
+          {
+            "name": "Serum albumin",
+            "rpa": 1.282
+          },
+          {
+            "name": "Keratin, type I cytoskeletal 9",
+            "rpa": 1.276
+          },
+          {
+            "name": "Ig lambda-2 chain C regions",
+            "rpa": 1.237
+          },
+          {
+            "name": "Actin, cytoplasmic 1",
+            "rpa": 1.195
+          },
+          {
+            "name": "Complement C4-B",
+            "rpa": 1.106
+          },
+          {
+            "name": "Fibrinogen beta chain",
+            "rpa": 1.078
+          },
+          {
+            "name": "Ig kappa chain V-III region HAH",
+            "rpa": 1.033
+          },
+          {
+            "name": "Ig mu chain C region",
+            "rpa": 1.024
+          },
+          {
+            "name": "Profilin-1",
+            "rpa": 1.02
+          },
+          {
+            "name": "Thymosin beta-4",
+            "rpa": 1.02
+          },
+          {
+            "name": "Inter-alpha-trypsin inhibitor heavy chain H2",
+            "rpa": 1.011
+          },
+          {
+            "name": "Alpha-1-antitrypsin",
+            "rpa": 0.995
+          },
+          {
+            "name": "Hemoglobin subunit alpha",
+            "rpa": 0.964
+          },
+          {
+            "name": "Apolipoprotein B-100",
+            "rpa": 0.962
+          },
+          {
+            "name": "Serum paraoxonase/arylesterase 1",
+            "rpa": 0.914
+          },
+          {
+            "name": "Vitronectin",
+            "rpa": 0.913
+          }
+        ],
+        "zeta_potential": -17
+      }
+    ],
+    "mean_hydrodynamic_diameter": 118.7,
+    "pdi": null,
+    "protein_identification_method": "LC-MS-MS",
+    "type": "DOTAP:DC-Chol:DOPC:DOPE:PEG1000",
+    "zeta_potential": 15.5
+  },
+  {
+    "article": {
+      "article_doi": "10.1039/c3nr05559k",
+      "title": "Effect of polyethyleneglycol (PEG) chain length on the bio-nano-interactions between PEGylated lipid nanoparticles and biological fluids: from nanostructure to uptake in cancer cells"
+    },
+    "coronas": [
+      {
+        "experiment_type": "in vitro",
+        "exposure_time": 60,
+        "mean_hydrodynamic_diameter": 136,
+        "pdi": null,
+        "protein_source": "Human Plasma",
+        "proteins": [
+          {
+            "name": "Ig kappa chain C region",
+            "rpa": 5.791
+          },
+          {
+            "name": "Complement C3",
+            "rpa": 5.21
+          },
+          {
+            "name": "Ig lambda-2 chain C regions",
+            "rpa": 3.418
+          },
+          {
+            "name": "Apolipoprotein C-III",
+            "rpa": 3.143
+          },
+          {
+            "name": "Complement C1q subcomponent subunit A",
+            "rpa": 2.58
+          },
+          {
+            "name": "Serum albumin",
+            "rpa": 2.462
+          },
+          {
+            "name": "Ig mu chain C region",
+            "rpa": 2.397
+          },
+          {
+            "name": "Apolipoprotein E",
+            "rpa": 1.945
+          },
+          {
+            "name": "Complement C1q subcomponent subunit B",
+            "rpa": 1.793
+          },
+          {
+            "name": "Complement C4-B",
+            "rpa": 1.687
+          },
+          {
+            "name": "Apolipoprotein A-I",
+            "rpa": 1.659
+          },
+          {
+            "name": "Keratin, type II cytoskeletal 1",
+            "rpa": 1.473
+          },
+          {
+            "name": "Apolipoprotein A-II",
+            "rpa": 1.471
+          },
+          {
+            "name": "Apolipoprotein C-II",
+            "rpa": 1.308
+          },
+          {
+            "name": "Alpha-1-antitrypsin",
+            "rpa": 1.224
+          },
+          {
+            "name": "Hemoglobin subunit alpha",
+            "rpa": 1.223
+          },
+          {
+            "name": "Keratin, type I cytoskeletal 10",
+            "rpa": 1.221
+          },
+          {
+            "name": "Hemoglobin subunit beta",
+            "rpa": 1.195
+          },
+          {
+            "name": "Keratin, type I cytoskeletal 9",
+            "rpa": 1.175
+          },
+          {
+            "name": "Complement C1q subcomponent subunit C",
+            "rpa": 1.172
+          },
+          {
+            "name": "Apolipoprotein A-IV",
+            "rpa": 1.165
+          },
+          {
+            "name": "Ig gamma-1 chain C region",
+            "rpa": 1.121
+          },
+          {
+            "name": "Ig kappa chain V-III region HAH",
+            "rpa": 1.1
+          },
+          {
+            "name": "Keratin, type II cytoskeletal 2 epidermal",
+            "rpa": 1.077
+          },
+          {
+            "name": "Fibrinogen beta chain",
+            "rpa": 1.068
+          },
+          {
+            "name": "Ig gamma-2 chain C region",
+            "rpa": 1.019
+          },
+          {
+            "name": "Actin, cytoplasmic 1",
+            "rpa": 0.994
+          },
+          {
+            "name": "Fibrinogen gamma chain",
+            "rpa": 0.981
+          },
+          {
+            "name": "C4b-binding protein alpha chain",
+            "rpa": 0.961
+          },
+          {
+            "name": "Vitronectin",
+            "rpa": 0.902
+          },
+          {
+            "name": "Thymosin beta-4",
+            "rpa": 0.891
+          },
+          {
+            "name": "Clusterin",
+            "rpa": 0.844
+          },
+          {
+            "name": "Fibrinogen alpha chain",
+            "rpa": 0.829
+          },
+          {
+            "name": "Ig kappa chain V-IV region (Fragment)",
+            "rpa": 0.819
+          },
+          {
+            "name": "Haptoglobin-related protein",
+            "rpa": 0.814
+          },
+          {
+            "name": "Apolipoprotein B-100",
+            "rpa": 0.812
+          },
+          {
+            "name": "Immunoglobulin lambda-like polypeptide 5",
+            "rpa": 0.799
+          },
+          {
+            "name": "Complement factor H",
+            "rpa": 0.79
+          },
+          {
+            "name": "Ig heavy chain V-III region GAL",
+            "rpa": 0.775
+          },
+          {
+            "name": "Inter-alpha-trypsin inhibitor heavy chain H2",
+            "rpa": 20.765
+          },
+          {
+            "name": "Apolipoprotein C-I",
+            "rpa": 0.748
+          },
+          {
+            "name": "Haptoglobin",
+            "rpa": 0.688
+          },
+          {
+            "name": "Vitamin K-dependent protein S",
+            "rpa": 0.678
+          },
+          {
+            "name": "Transthyretin",
+            "rpa": 0.662
+          },
+          {
+            "name": "Serum amyloid A-4 protein",
+            "rpa": 0.655
+          },
+          {
+            "name": "C-reactive protein",
+            "rpa": 0.651
+          },
+          {
+            "name": "Complement factor H-related protein 1",
+            "rpa": 0.65
+          },
+          {
+            "name": "Complement C5",
+            "rpa": 0.639
+          },
+          {
+            "name": "Complement component C9",
+            "rpa": 0.621
+          },
+          {
+            "name": "Serotransferrin",
+            "rpa": 0.571
+          },
+          {
+            "name": "Apolipoprotein C-IV",
+            "rpa": 0.552
+          },
+          {
+            "name": "Inter-alpha-trypsin inhibitor heavy chain H1",
+            "rpa": 0.55
+          },
+          {
+            "name": "Ig heavy chain V-III region BRO",
+            "rpa": 0.532
+          },
+          {
+            "name": "Complement component C8 gamma chain",
+            "rpa": 0.531
+          },
+          {
+            "name": "14-3-3 protein zeta/delta",
+            "rpa": 0.511
+          },
+          {
+            "name": "Galectin-3-binding protein",
+            "rpa": 0.499
+          },
+          {
+            "name": "Myosin light polypeptide 6",
+            "rpa": 0.495
+          },
+          {
+            "name": "Apolipoprotein D",
+            "rpa": 0.486
+          },
+          {
+            "name": "Hyaluronan-binding protein 2",
+            "rpa": 0.485
+          },
+          {
+            "name": "Ig heavy chain V-III region BUT",
+            "rpa": 0.467
+          },
+          {
+            "name": "Keratin, type I cytoskeletal 16",
+            "rpa": 0.458
+          },
+          {
+            "name": "Keratin, type I cytoskeletal 14",
+            "rpa": 0.456
+          },
+          {
+            "name": "Prothrombin",
+            "rpa": 0.451
+          },
+          {
+            "name": "Ig kappa chain V-I region HK102 (Fragment)",
+            "rpa": 0.432
+          },
+          {
+            "name": "Complement factor B",
+            "rpa": 0.425
+          },
+          {
+            "name": "Keratin, type II cytoskeletal 5",
+            "rpa": 0.416
+          },
+          {
+            "name": "Serum paraoxonase/arylesterase 1",
+            "rpa": 0.406
+          },
+          {
+            "name": "Tropomyosin alpha-4 chain",
+            "rpa": 0.406
+          },
+          {
+            "name": "Ig alpha-1 chain C region",
+            "rpa": 0.405
+          },
+          {
+            "name": "Erythrocyte band 7 integral membrane protein",
+            "rpa": 0.386
+          },
+          {
+            "name": "Dermcidin",
+            "rpa": 0.383
+          },
+          {
+            "name": "Inter-alpha-trypsin inhibitor heavy chain H3",
+            "rpa": 0.38
+          },
+          {
+            "name": "Plasma protease C1 inhibitor",
+            "rpa": 0.379
+          },
+          {
+            "name": "Keratin, type II cytoskeletal 6A",
+            "rpa": 0.371
+          },
+          {
+            "name": "Alpha-1-acid glycoprotein 1",
+            "rpa": 0.369
+          },
+          {
+            "name": "Profilin-1",
+            "rpa": 0.359
+          },
+          {
+            "name": "Immunoglobulin J chain",
+            "rpa": 0.327
+          },
+          {
+            "name": "Complement C1s subcomponent",
+            "rpa": 0.323
+          },
+          {
+            "name": "Alpha-2-macroglobulin",
+            "rpa": 0.322
+          },
+          {
+            "name": "Complement component C8 beta chain",
+            "rpa": 0.319
+          },
+          {
+            "name": "Complement component C6",
+            "rpa": 0.31
+          },
+          {
+            "name": "Secreted phosphoprotein 24",
+            "rpa": 0.302
+          },
+          {
+            "name": "Peptidyl-prolyl cis-trans isomerase A",
+            "rpa": 0.301
+          }
+        ],
+        "zeta_potential": -18
+      }
+    ],
+    "mean_hydrodynamic_diameter": 116.9,
+    "pdi": null,
+    "protein_identification_method": "LC-MS-MS",
+    "type": "DOTAP:DC-Chol:DOPC:DOPE:PEG2000",
+    "zeta_potential": 18.3
+  },
+  {
+    "article": {
+      "article_doi": "10.1039/c3nr05559k",
+      "title": "Effect of polyethyleneglycol (PEG) chain length on the bio-nano-interactions between PEGylated lipid nanoparticles and biological fluids: from nanostructure to uptake in cancer cells"
+    },
+    "coronas": [
+      {
+        "experiment_type": "in vitro",
+        "exposure_time": 60,
+        "mean_hydrodynamic_diameter": 111,
+        "pdi": null,
+        "protein_source": "Human Plasma",
+        "proteins": [
+          {
+            "name": "Ig kappa chain C region",
+            "rpa": 7.868
+          },
+          {
+            "name": "Complement C3",
+            "rpa": 4.639
+          },
+          {
+            "name": "Ig lambda-2 chain C regions",
+            "rpa": 3.654
+          },
+          {
+            "name": "Complement C1q subcomponent subunit A",
+            "rpa": 3.639
+          },
+          {
+            "name": "Ig mu chain C region",
+            "rpa": 2.93
+          },
+          {
+            "name": "Complement C4-B",
+            "rpa": 2.701
+          },
+          {
+            "name": "Apolipoprotein C-III",
+            "rpa": 2.305
+          },
+          {
+            "name": "Serum albumin",
+            "rpa": 1.843
+          },
+          {
+            "name": "Vitronectin",
+            "rpa": 1.764
+          },
+          {
+            "name": "Complement C1q subcomponent subunit B",
+            "rpa": 1.745
+          },
+          {
+            "name": "Apolipoprotein C-II",
+            "rpa": 1.662
+          },
+          {
+            "name": "Keratin, type II cytoskeletal 1",
+            "rpa": 1.592
+          },
+          {
+            "name": "C4b-binding protein alpha chain",
+            "rpa": 1.574
+          },
+          {
+            "name": "Hemoglobin subunit alpha",
+            "rpa": 1.542
+          },
+          {
+            "name": "Ig gamma-1 chain C region",
+            "rpa": 1.486
+          },
+          {
+            "name": "Apolipoprotein A-II",
+            "rpa": 1.365
+          },
+          {
+            "name": "Apolipoprotein E",
+            "rpa": 1.361
+          },
+          {
+            "name": "Apolipoprotein A-I",
+            "rpa": 1.358
+          },
+          {
+            "name": "Keratin, type I cytoskeletal 10",
+            "rpa": 1.357
+          },
+          {
+            "name": "Hemoglobin subunit beta",
+            "rpa": 1.348
+          },
+          {
+            "name": "Keratin, type I cytoskeletal 9",
+            "rpa": 1.233
+          },
+          {
+            "name": "Complement C1q subcomponent subunit C",
+            "rpa": 1.227
+          },
+          {
+            "name": "Ig gamma-2 chain C region",
+            "rpa": 1.198
+          },
+          {
+            "name": "Thymosin beta-4",
+            "rpa": 1.139
+          },
+          {
+            "name": "Ig kappa chain V-III region HAH",
+            "rpa": 1.121
+          },
+          {
+            "name": "Keratin, type II cytoskeletal 2 epidermal",
+            "rpa": 1.115
+          },
+          {
+            "name": "Apolipoprotein A-IV",
+            "rpa": 1.084
+          },
+          {
+            "name": "Actin, cytoplasmic 1",
+            "rpa": 0.99
+          },
+          {
+            "name": "Fibrinogen beta chain",
+            "rpa": 0.979
+          },
+          {
+            "name": "Immunoglobulin lambda-like polypeptide 5",
+            "rpa": 0.967
+          },
+          {
+            "name": "Alpha-1-antitrypsin",
+            "rpa": 0.903
+          },
+          {
+            "name": "Ig kappa chain V-I region WEA",
+            "rpa": 0.849
+          },
+          {
+            "name": "Apolipoprotein C-I",
+            "rpa": 0.824
+          },
+          {
+            "name": "Ig kappa chain V-IV region (Fragment)",
+            "rpa": 0.822
+          },
+          {
+            "name": "Ig gamma-3 chain C region",
+            "rpa": 0.781
+          },
+          {
+            "name": "Fibrinogen gamma chain",
+            "rpa": 0.723
+          },
+          {
+            "name": "Complement factor H",
+            "rpa": 0.721
+          },
+          {
+            "name": "Haptoglobin-related protein",
+            "rpa": 0.708
+          },
+          {
+            "name": "Vitamin K-dependent protein S",
+            "rpa": 0.701
+          },
+          {
+            "name": "Clusterin",
+            "rpa": 0.656
+          },
+          {
+            "name": "Complement factor H-related protein 1",
+            "rpa": 0.645
+          },
+          {
+            "name": "Apolipoprotein C-IV",
+            "rpa": 0.633
+          },
+          {
+            "name": "Serum amyloid A-4 protein",
+            "rpa": 0.633
+          },
+          {
+            "name": "Fibrinogen alpha chain",
+            "rpa": 0.605
+          },
+          {
+            "name": "Apolipoprotein B-100",
+            "rpa": 0.574
+          },
+          {
+            "name": "Keratin, type I cytoskeletal 16",
+            "rpa": 0.558
+          },
+          {
+            "name": "Haptoglobin",
+            "rpa": 0.549
+          },
+          {
+            "name": "Complement component C9",
+            "rpa": 0.54
+          },
+          {
+            "name": "Myosin light polypeptide 6",
+            "rpa": 0.538
+          },
+          {
+            "name": "Profilin-1",
+            "rpa": 0.529
+          },
+          {
+            "name": "Complement component C8 gamma chain",
+            "rpa": 0.526
+          },
+          {
+            "name": "Ig heavy chain V-III region BUT",
+            "rpa": 0.518
+          },
+          {
+            "name": "Keratin, type I cytoskeletal 14",
+            "rpa": 0.501
+          },
+          {
+            "name": "Transthyretin",
+            "rpa": 0.496
+          },
+          {
+            "name": "Galectin-3-binding protein",
+            "rpa": 0.491
+          },
+          {
+            "name": "Ig heavy chain V-III region GAL",
+            "rpa": 0.491
+          },
+          {
+            "name": "Serotransferrin",
+            "rpa": 0.491
+          },
+          {
+            "name": "Tropomyosin alpha-4 chain",
+            "rpa": 0.488
+          },
+          {
+            "name": "Complement C5",
+            "rpa": 0.487
+          },
+          {
+            "name": "Keratin, type II cytoskeletal 5",
+            "rpa": 0.487
+          },
+          {
+            "name": "Ig alpha-1 chain C region",
+            "rpa": 0.459
+          },
+          {
+            "name": "14-3-3 protein zeta/delta",
+            "rpa": 0.444
+          },
+          {
+            "name": "Keratin, type II cytoskeletal 6A",
+            "rpa": 0.44
+          },
+          {
+            "name": "Protein S100-A9",
+            "rpa": 0.438
+          },
+          {
+            "name": "Ras-related protein Rap-1b",
+            "rpa": 0.436
+          },
+          {
+            "name": "C-reactive protein",
+            "rpa": 0.4
+          },
+          {
+            "name": "Complement factor B",
+            "rpa": 0.399
+          },
+          {
+            "name": "Alpha-1-acid glycoprotein 1",
+            "rpa": 0.375
+          },
+          {
+            "name": "Peptidyl-prolyl cis-trans isomerase A",
+            "rpa": 0.355
+          },
+          {
+            "name": "Histidine-rich glycoprotein",
+            "rpa": 0.354
+          },
+          {
+            "name": "Hyaluronan-binding protein 2",
+            "rpa": 0.351
+          },
+          {
+            "name": "Dermcidin",
+            "rpa": 0.329
+          },
+          {
+            "name": "Complement component C8 beta chain",
+            "rpa": 0.327
+          },
+          {
+            "name": "Plasma protease C1 inhibitor",
+            "rpa": 0.317
+          },
+          {
+            "name": "Erythrocyte band 7 integral membrane protein",
+            "rpa": 0.313
+          },
+          {
+            "name": "Serum paraoxonase/arylesterase 1",
+            "rpa": 0.306
+          },
+          {
+            "name": "Apolipoprotein D",
+            "rpa": 0.304
+          }
+        ],
+        "zeta_potential": -7
+      }
+    ],
+    "mean_hydrodynamic_diameter": 103.2,
+    "pdi": null,
+    "protein_identification_method": "LC-MS-MS",
+    "type": "DOTAP:DC-Chol:DOPC:DOPE:PEG5000",
+    "zeta_potential": 11.3
+  }
+]
