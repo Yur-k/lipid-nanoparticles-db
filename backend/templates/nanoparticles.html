@@ -32,7 +32,6 @@
                                 <th>NP Diameter (nm)</th>
                                 <th>Zeta Potential (mV)</th>
                                 <th>PDI</th>
-                                <th>Protein source</th>
                                 <th>Number of coronas</th>
                                 <th>Protein Identification Method</th>
                                 <th>Nanoparticle ID</th>
@@ -45,7 +44,6 @@
                                 <td>{{ row.mean_hydrodynamic_diameter }}</td>
                                 <td>{{ row.zeta_potential }}</td>
                                 <td>{{ row.pdi }}</td>
-                                <td>{{ row.protein_source }}</td>
                                 <td>{{ row.number_of_identified_coronas }}</td>
                                 <td>{{ row.protein_identification_method }}</td>
                                 <td><a href="{{ url_for('get_nanoparticle_page', id=row.np_id) }}">{{ row.np_id }}</a></td>
