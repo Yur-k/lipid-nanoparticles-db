@@ -17,11 +17,14 @@ client = MongoClient("mongodb://mongodb:27017/")
 db = client["nanoparticles_database"]
 collection_name = "nanoparticles"
 
-
+# Apply schema as validator
 if collection_name not in db.list_collection_names():
     db.command("create", collection_name, validator=schema)
 else:
-    db.command("collMod", collection_name, validator=schema, validationLevel="strict", validationAction="error")
+    db.command("collMod", collection_name, 
+                          validator=schema, 
+                          validationLevel="strict", 
+                          validationAction="error")
 
 collection = db[collection_name]
 
@@ -96,7 +99,7 @@ def get_nanoparticle(id):
 
 
 # Delete a nanoparticle by ID
-@app.route('/np/delete/<id>', methods=['DELETE'])
+@app.route('/api/np/delete/<id>', methods=['DELETE'])
 def delete_nanoparticle(id):
     result = collection.delete_one({"_id": ObjectId(id)})
     if result.deleted_count == 1:
@@ -109,14 +112,8 @@ def delete_nanoparticle(id):
 ##  WEB PAGES
 ###########################
 
-@app.route("/", methods=["GET", "POST"])
+@app.route("/", methods=["GET"])
 def index():
-    if request.method == "POST":
-        name = request.form.get("name")
-        email = request.form.get("email")
-        message = request.form.get("message")
-        logger.info(f"Given data: {name} {email} {message}")
-        return f"Form submitted successfully {name} {email} {message}!"
     return render_template("index.html")
 
 
@@ -140,12 +137,12 @@ def get_database_page():
                     'corona_pdi': corona.get('pdi'),
                     'exposure_time': corona['exposure_time'],
                     'experiment_type': corona['experiment_type'],
+                    'protein_source': corona['protein_source'],
                     'protein_name': protein['name'],
                     'rpa': protein['rpa'],
                     'np_id': item["_id"]
                 })
     return render_template("database.html", table=all_data)
-
 
 
 @app.route('/coronas', methods=['GET'])
@@ -160,6 +157,7 @@ def get_np_corona_page():
                 'protein_identification_method': item['protein_identification_method'],
                 'zeta_potential': corona.get('zeta_potential'),
                 'pdi': corona.get('pdi'),
+                'protein_source': corona['protein_source'],
                 'exposure_time': corona['exposure_time'],
                 'experiment_type': corona['experiment_type'],
                 'proteins': [protein['name'] for protein in corona['proteins']],
